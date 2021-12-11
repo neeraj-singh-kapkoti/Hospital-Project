@@ -3,8 +3,8 @@ import "./home.css"
 
 function Home() {
   return (
-    <div>
-      <section id="home" className="home d-flex align-items-center">
+    <div >
+     <section id="Home "className="home d-flex align-items-center">
         <div className="container">
           <h1>
             Welcome to praroz <br /> Healthcare
