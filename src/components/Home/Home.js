@@ -4,7 +4,7 @@ import "./home.css"
 function Home() {
   return (
     <div>
-      <section className="home d-flex align-items-center">
+      <section id="home" className="home d-flex align-items-center">
         <div className="container">
           <h1>
             Welcome to praroz <br /> Healthcare
