@@ -14,7 +14,7 @@ function Home() {
             <br />
             "Your devotion and care bring healing, comfort and hope."
           </h2>
-          <a href="#about" className="btn-get-started scrollto">
+          <a href="/blog1" className="btn-get-started scrollto">
             Learn More
           </a>
         </div>

@@ -43,7 +43,9 @@ function Services() {
           </div>
 
         </div>
-
+        <a href="/service" className="btn-get-started scrollto">
+             More
+          </a>
       </div>
     </section>
         </div>

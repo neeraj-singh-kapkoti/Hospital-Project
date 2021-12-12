@@ -31,7 +31,7 @@ function Navbar() {
       <header className="header fixed-top">
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
-            <a href="index.html">Kapkoti - real life hero</a>
+            <a href="index.html">Pithoragarh - healthcare</a>
           </h1>
 
           <nav className="navbar order-last order-lg-0">

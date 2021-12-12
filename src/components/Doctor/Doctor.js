@@ -96,6 +96,9 @@ function Doctor() {
               </div>
             </div>
           </div>
+          <a href="#about" className="btn-get-started scrollto">
+             More
+          </a>
         </div>
       </section>
     </div>
