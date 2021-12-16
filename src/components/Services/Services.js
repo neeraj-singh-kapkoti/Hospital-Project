@@ -1,55 +1,89 @@
-import React from 'react'
-import "./Services.css"
-import { FaUserMd} from "react-icons/fa";
+import React from "react";
+import "./Services.css";
+import { BsCardChecklist } from "react-icons/bs";
+import { MdBloodtype } from "react-icons/md";
+import { FaTemperatureLow } from "react-icons/fa";
+import { GiMedicines } from "react-icons/gi";
 
 function Services() {
-    return (
-        <div>
-            
-    <section id="featured-services" className="featured-services">
-      <div className="container" data-aos="fade-up">
+  return (
+    <div>
+      <section id="featured-services" class="featured-services">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <BsCardChecklist style={{ fontSize: 100 }} />
+                <h4 class="title">
+                  <a href="" style={{ textDecoration: "none" }}>
+                    {" "}
+                    Normal checkup
+                  </a>
+                </h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti 2 times per month quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
 
-        <div className="row">
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div className="icon"><FaUserMd size={70}/> </div>
-              <h4 className="title"><a href=""> Normal checkup</a></h4>
-              <p className="description">Voluptatum deleniti atque corrupti 2 times per month quas molestias excepturi</p>
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <MdBloodtype />
+                <MdBloodtype style={{ fontSize: 100 }} />
+
+                <h4 class="title">
+                  <a href="" style={{ textDecoration: "none" }}>
+                    Blood Test
+                  </a>
+                </h4>
+                <p class="description">
+                  At vero eos et accusamus et 1 week odio dignissimos ducimus
+                  qui blanditiis
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <FaTemperatureLow />
+                <FaTemperatureLow style={{ fontSize: 100 }} />
+                <h4 class="title">
+                  <a href="" style={{ textDecoration: "none" }}>
+                    Body temperature
+                  </a>
+                </h4>
+                <p class="description">
+                  Excepteur sint occaecat 37.6 non proident, 98.6 sunt in culpa
+                  qui officia
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <GiMedicines />
+
+                <GiMedicines style={{ fontSize: 100 }} />
+                <h4 class="title">
+                  <a href="" style={{ textDecoration: "none" }}>
+                    Medicine use
+                  </a>
+                </h4>
+                <p class="description">
+                  Duis aute dolor 10-12 in reprehenderit in voluptate 8-12 velit
+                  esse cillum dolore
+                </p>
+              </div>
             </div>
           </div>
-
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div className="icon"><FaUserMd size={70}/>  </div>
-              <h4 className="title"><a href="">Blood Test</a></h4>
-              <p className="description">At vero eos et accusamus et 1 week odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-          
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div className="icon"><FaUserMd size={70}/>  </div>
-              <h4 className="title"><a href="">Body temperature</a></h4>
-              <p className="description">Excepteur sint occaecat 37.6 non proident, 98.6 sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div className="icon"><FaUserMd size={70}/> </div>
-              <h4 className="title"><a href="">Medicine use</a></h4>
-              <p className="description">Duis aute dolor 10-12 in reprehenderit in voluptate 8-12 velit esse cillum dolore</p>
-            </div>
-          </div>
-
-        </div>
-        <a href="/service" className="btn-get-started scrollto">
-             More
+          <a href="/service" className="btn-get-started scrollto">
+            More
           </a>
-      </div>
-    </section>
         </div>
-    )
+      </section>
+    </div>
+  );
 }
 
-export default Services
+export default Services;
