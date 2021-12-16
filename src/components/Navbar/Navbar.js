@@ -1,14 +1,22 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import { useLocation } from "react-router-dom";
 
 
-function Navbar() {
-  
+function Navbar(props) {
+  let location = useLocation();
+
   const [click, setClick] = useState(false);
+  
   const handleClick = () => {
     setClick(!click)
-
   };
+
+  const ActiveClr = (curr)=>{
+    if(location.pathname===curr){
+      return "active"
+    }
+  }
 
   return (
     <div>
@@ -18,14 +26,14 @@ function Navbar() {
         </a>
 
         <nav className={click ? "navbar active" : "navbar"} >
-          <a className="active" href="#home">
+          <a className={ActiveClr("/")} href="/" onClick={handleClick}>
             home
           </a>
-          <a href="#dishes">dishes</a>
-          <a href="#about">about</a>
-          <a href="#menu">menu</a>
-          <a href="#review">review</a>
-          <a href="#order">order</a>
+          <a href="#dishes" className={ActiveClr("/service")} onClick={handleClick} >dishes</a>
+          <a href="#about" className={ActiveClr("/service")} onClick={handleClick} >about</a>
+          <a href="/service" className={ActiveClr("/service")} onClick={handleClick} >menu</a>
+          <a href="#review" className={ActiveClr("/service")} onClick={handleClick} >review</a>
+          <a href="#order" className={ActiveClr("/service")} onClick={handleClick} >order</a>
         </nav>
 
 
