@@ -14,7 +14,7 @@ function ListP() {
 
              {data.map((product)=>{
                 return(
-                    <div className="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div key={product.title} className="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
 
                     <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
 
