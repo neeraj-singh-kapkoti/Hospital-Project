@@ -92,6 +92,7 @@ footer {
   
 .footer-top .footer-links ul a:hover {
     color: #3fbbc0;
+    margin-left: 10px;
   }
   
 .footer-top .footer-newsletter form {

@@ -38,10 +38,9 @@ function Navbar(props) {
 
 
         <div className="icons">
-          <i onClick={handleClick} className={click ? "fas fa-times" : "fas fa-bars"} id="menu-bars"> </i>        
           <i className="fas fa-search" id="search-icon"></i>
           <a href="#" >Emergency</a>
-          
+          <i onClick={handleClick} className={click ? "fas fa-times" : "fas fa-bars"} id="menu-bars"> </i>          
         </div>
       </header>
     </div>
