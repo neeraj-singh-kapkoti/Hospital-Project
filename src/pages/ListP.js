@@ -1,42 +1,51 @@
 import React from "react";
-import "./ListP.css"
-import data from "../Data/ServiceData"
+import "./ListP.css";
+import data from "../Data/ServiceData";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 function ListP() {
   return (
-      <div>
-    <Navbar />      
-    <section id="featured-services" className="featured-services">
-      <div className="container" data-aos="fade-up">
-        <div className="row">
+    <div>
+      <Navbar />
+      <section className="packages container" id="packages">
+        <h1 className="heading">popular packages</h1>
 
-             {data.map((product)=>{
-                return(
-                    <div key={product.title} className="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-
-                    <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-
-                    <div className="icon"> {product.logo} </div>
-                    <h4 className="title">
-                        <a href=""> {product.title} </a>
-                    </h4>
-                    <p className="description">
-                        {product.desc}
-                    </p>
+        <div className="box-container">
+          {data.map((product) => {
+            return (
+              <Link
+                to="/blog1"
+                key={product.title}
+                state={{
+                  logo:product.logo,
+                  img: product.img,
+                  name: product.docName,
+                  type: product.type,
+                  prof: product.docProf,
+                  edu: product.docEduc,
+                  room: product.roomNo,
+                  desc: product.desc,
+                  test: product.data
+                }}
+              >
+                <div className="box">
+                  <div className="image">
+                    <img src={product.logo} alt="" />
+                  </div>
+                  <div className="content">
+                    <h3>{product.title}</h3>
+                    <div className="price">{product.desc}</div>
                     
-                     </div> 
-                     </div>
-
-                )
-             })}
-              
-             
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
-      </div>
-    </section>
-    <Footer />
+      </section>
+      <Footer />
     </div>
   );
 }

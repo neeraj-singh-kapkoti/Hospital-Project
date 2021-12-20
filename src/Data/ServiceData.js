@@ -1,29 +1,47 @@
-import { FaUserMd} from "react-icons/fa";
-let acc = <FaUserMd size={70}/>
+import backG from "../image/general-surgery.jpg"
+import pic from "../image/doc.jpg"
+import doc from "../image/drNew.png"
 
 
 const serviceData = [
     {
-        logo: acc,
-        title: "hello 0",
-        desc: "Magna Magnam dolores commodi Magnam dolores commodi Magnam dolores commodi Magnam dolores commodiMagnam dolores commodi Magnam dolores commodiMagnam dolores commodi Magnam dolores commodiMagnam dolores commodi Magnam dolores commodim dolores commodi Magnam dolores commodi suscipit"
+        logo: backG,
+        title: "GENERAL SURGERY",
+        desc: "General surgery is a surgical specialty that focuses on and.",
+        img: doc,
+        type: "GENERAL SURGERY",
+        docName: "gauravvvv",
+        docEduc:"MBBS",
+        docProf:"GENERAL SURGEAN",
+        roomNo:10,
+        data:[
+            {
+                name: "surgery",
+                cost: 10000
+            },
+            {
+                name: "surgery 2",
+                cost: 5000
+                },
+        ],
+        details: "gygjdhfd dgfdthrsd cfgdhdhfdgh ghhgfdfg"
     },
 
     {
-        logo: acc,
+        logo: pic,
         title: "hello 1",
         desc: "Magnam dolores commodi Magnam dolores commodi suscipit"
 
     },
 
     {
-        logo: acc,
+        logo: pic,
         title: "hello 2",
         desc: "Magnam dolores commodi Magnam dolores commodi suscipit"
     },
 
     {
-        logo: acc,
+        logo: pic,
         title: "hello 3",
         desc: "Magnam dolores commodi Magnam dolores commodi suscipit"
     },
