@@ -24,6 +24,9 @@ function SinglePage(props) {
         </div>
       </section>
 
+      <h1 className="heading">TREATMENT & SERVICES AVAILABLE</h1>
+      <TableR item={props.item.test} />
+
       <section className="about" id="about">
         <div className="image">
           <img src={props.item.logo} alt="" />
@@ -41,7 +44,7 @@ function SinglePage(props) {
           </p>
         </div>
       </section>
-      <TableR item={props.item.test} />
+     
     </div>
   );
 }

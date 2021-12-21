@@ -5,22 +5,23 @@ import React, {useState} from "react"
 const useStyles = makeStyles((theme) => ({
     root: {
         width: "100vw",
-        height: "100vh",
         backgroundColor: "grey",
-        paddingTop: "10px"
+        padding: "30px",
+        fontSize: '200pt',
+    },
+    table: {
+        fontSize: '200pt',
     },
 }))
 
 export const TableR = (props) => {
-   console.log(props.item)
 
  const classes = useStyles()
  const [users, setUsers] = useState(props.item);
- console.log(users,"------")
   return (
       <Container className={classes.root} >
         <TableContainer component={Paper}>
-            <Table>
+            <Table className={classes.table} style={{fontSize: "500pt"}} >
                 <TableHead>
                     <TableRow>
                         <TableCell>TreatMent/Services</TableCell>

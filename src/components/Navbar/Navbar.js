@@ -22,18 +22,18 @@ function Navbar(props) {
     <div>
    <header>
         <a href="#" className="logo">
-          <i className="fas fa-utensils"></i>resto.
+          <i className="fas fa-utensils"></i>Health-Care
         </a>
 
         <nav className={click ? "navbar active" : "navbar"} >
           <a className={ActiveClr("/")} href="/" onClick={handleClick}>
             home
           </a>
-          <a href="#dishes" className={ActiveClr("/service")} onClick={handleClick} >dishes</a>
-          <a href="#about" className={ActiveClr("/service")} onClick={handleClick} >about</a>
-          <a href="/service" className={ActiveClr("/service")} onClick={handleClick} >menu</a>
-          <a href="#review" className={ActiveClr("/service")} onClick={handleClick} >review</a>
-          <a href="#order" className={ActiveClr("/service")} onClick={handleClick} >order</a>
+          <a href="/service" className={ActiveClr("/service")} onClick={handleClick} >Treatment & services </a>
+          <a href="/others" className={ActiveClr("/others")} onClick={handleClick} >Others</a>
+          <a href="/test" className={ActiveClr("/test")} onClick={handleClick} >Types of test</a>
+          <a href="/counselling" className={ActiveClr("/counselling")} onClick={handleClick} >Counselling</a>
+          <a href="/about" className={ActiveClr("/about")} onClick={handleClick} >About us</a>
         </nav>
 
 
