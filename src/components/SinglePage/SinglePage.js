@@ -34,15 +34,13 @@ function SinglePage(props) {
 
         <div className="content">
           <h3>What is {props.item.type} ?</h3>
-          <p>
-            {props.item.desc}
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            dicta doloremque placeat porro, ipsam quia at beatae atque odit
-            iste?
+          <p className="new-line">
+            {props.item.details}
           </p>
         </div>
+          <p className="new-line">
+            {props.item.details1}
+          </p>
       </section>
      
     </div>

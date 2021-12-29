@@ -1,0 +1,20 @@
+.facilities{
+    margin-top: 130px;
+}
+
+.facilities h2 {
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.facilities p
+{
+    margin-left: 32px;
+}
+.facilities img{
+    width: 40%;
+    height: 40%;
+}

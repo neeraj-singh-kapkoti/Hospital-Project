@@ -1,0 +1,36 @@
+.ward{
+    margin-top: 150px;
+}
+
+.ward h4 {
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ward table{
+    border: 1px solid black;
+    text-align:center;
+} 
+.ward th{
+    border: 1px solid black;
+    text-align:center;
+}
+
+.ward td {
+    border: 1px solid black;
+    height: 80px;
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.ward table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ward table{
+    width: 70%;
+}

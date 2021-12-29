@@ -21,7 +21,7 @@ function Navbar(props) {
   return (
     <div>
    <header>
-        <a href="#" className="logo">
+        <a href="/" className="logo">
           <i className="fas fa-utensils"></i>Health-Care
         </a>
 
@@ -38,9 +38,19 @@ function Navbar(props) {
 
 
         <div className="icons">
-          <i className="fas fa-search" id="search-icon"></i>
-          <a href="#" >Emergency</a>
-          <i onClick={handleClick} className={click ? "fas fa-times" : "fas fa-bars"} id="menu-bars"> </i>          
+          
+          <ul>
+            <li> <a href="" >Emergency</a>
+                <ul>
+                  <li><a href="#" >service</a></li>
+                  <li><a href="#" >blood bank</a></li>
+                  <li><a href="#" >Ambulance</a></li>
+                </ul>
+            </li>
+            <li><i onClick={handleClick} className={click ? "fas fa-times" : "fas fa-bars"} id="menu-bars"> </i>          
+</li>
+          </ul>
+         
         </div>
       </header>
     </div>

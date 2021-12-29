@@ -17,10 +17,9 @@ function HomeP() {
             <CarouselContainer />
             <Services />
             <Bodyparts />
-            <MoreService />
             <Doctor />
             <About />
-            <AboutCount />
+            {/* <AboutCount /> */}
             <Footer />
         </div>
     )

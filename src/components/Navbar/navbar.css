@@ -5,7 +5,7 @@ header{
   position: fixed;
   top:0; left: 0; right:0;
   background: #fff;
-  padding:1rem 7%;
+  padding: .1rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,8 +15,8 @@ header{
 
 header .logo{
   color:black;
-  font-size: 2.5rem;
-  font-weight: bolder;
+  font-size: 1.3rem;
+  font-weight:900;
 }
 
 header .logo i{
@@ -24,7 +24,8 @@ header .logo i{
 }
 
 header .navbar a{
-  font-size: 1.7rem;
+  font-size: 1rem;
+  font-weight:900;
   border-radius: .5rem;
   padding:.5rem 1.5rem;
   color:var(--light-color);
@@ -38,21 +39,14 @@ header .navbar a:hover{
 
 header .icons i{
   cursor: pointer;
-  margin-left: 3rem;
   height:4.5rem;
   line-height: 4.5rem;
   width:4.5rem;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1rem;
   color:var(--black);
   border-radius: 50%;
   background: #eee;
-}
-
-header .icons a{
-  font-size: 20px;
-  color: var(--green);
-
 }
 
 header .icons i:hover{
@@ -94,4 +88,47 @@ header .navbar a{
     background:#eee;
 }
 
+}
+.icons ul li{
+    display: inline-block;
+}
+
+.icons ul li a{
+  color: rgb(190, 8, 8);
+  border-radius: .5rem;
+  display: block;
+  width: 100%;
+  padding:0rem .5rem;
+  line-height: 47px;
+  font-size: 20px;
+  font-weight: 900;
+  background: white;
+  transition: .5s;
+}
+.icons ul li a:hover,
+.icons ul li a.active{
+  color:#fff;
+  background: var(--green);
+}
+.icons ul ul{
+  display: inline-block;
+  width: 12%;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  padding-left: 0rem;
+}
+.icons ul ul li{
+  width: 70%;
+  padding-left: 0rem;
+}
+/* .icons ul ul li a{
+  margin-left: 2rem;
+} */
+
+
+.icons ul li:hover > ul{
+  top: 50px;
+  opacity: 1;
+  visibility: visible;
 }

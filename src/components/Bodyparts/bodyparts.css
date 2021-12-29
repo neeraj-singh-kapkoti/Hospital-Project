@@ -1,7 +1,380 @@
-.bodyImage img{
-  width: 70%;
-  height: 50%;
+.structure{
+  background-color: rgb(4, 4, 66);
+  width: 100%;
 }
-.bodyImage{
-    text-align: center;
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+.structure {
+  text-align: center;
+  position: relative;
+  max-width: 695px;
+  margin: auto;
+}
+
+.structure > img {
+  max-width: 410px;
+  display: inline-block;
+  width: 100%;
+}
+.body_list {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.body_list.right {
+  left: auto;
+  right: 0;
+}
+.body_list > li {
+  position: absolute;
+  top: 0;
+}
+.body_list > li:hover .right_txt {
+  opacity: 1;
+  visibility: visible;
+  left: -360px;
+}
+.body_list > li:hover > a {
+  color: #f87a2f;
+}
+.body_list.right .right_txt {
+  right: -415px;
+  left: auto;
+  top: -30px;
+}
+.body_list.right .right_txt:before {
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #f87a2f transparent transparent;
+  right: auto;
+  top: 30;
+  left: -10px;
+}
+.body_list.right > li:hover .right_txt {
+  opacity: 1;
+  visibility: visible;
+  right: -405px;
+  left: auto;
+}
+.body_list > li > a {
+  position: relative;
+  color: #fff;
+  font-family: FrutigerLTStd55Roman;
+  font-size: 16px;
+  transition: none;
+}
+.body_list > li > a:hover {
+  color: #f87a2f;
+}
+.body_list > li > a > .txt {
+  position: absolute;
+  top: 1;
+  left: 1;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  color: #fff;
+}
+.body_list > li:hover > a .txt,
+.body_list > li > a:hover .txt {
+  transform: scale(1.5);
+  top: -1px;
+  left: -10px;
+  color: #f87a2f;
+}
+
+
+.structure.male .body_list.left > li.eyeMpointer {
+  left: 60px;
+  top: 30px;
+}
+.structure.male .body_list.left > li.eyeMpointer > a:before {
+  content: url(../../image/body/earMPointerImgWhite.png);
+  position: absolute;
+  right: -265px;
+  top: 15px;
+}
+
+.structure.male .body_list.left > li.earMpointer {
+  left: 50px;
+  top: 60px;
+}
+.structure.male .body_list.left > li.earMpointer > a:before {
+  content: url(../../image/body/earMPointerImgWhite.png);
+  position: absolute;
+  right: -265px;
+}
+
+
+
+
+.structure.male .body_list.left > li.teethMpointer {
+  left: 80px;
+  top: 95px;
+}
+.structure.male .body_list.left > li.teethMpointer > a:before {
+  content: url(../../image/body/throatMpointerImgWhite.png);
+  position: absolute;
+  right: -260px;
+  top: -10px;
+}
+
+.structure.male .body_list.left > li.throatMpointer {
+  left: 80px;
+  top: 150px;
+}
+.structure.male .body_list.left > li.throatMpointer > a:before {
+  content: url(../../image/body/throatMpointerImgWhite.png);
+  position: absolute;
+  right: -260px;
+  top: -13px;
+}
+.structure.male .body_list.left > li.chestMpointer {
+  left: 15px;
+  top: 165px;
+}
+
+.structure.male .body_list.left > li.liverMpointer {
+  left: 5px;
+  top: 295px;
+}
+.structure.male .body_list.left > li.liverMpointer > a:before {
+  content: url(../../image/body/liverMpointerImgWhite.png);
+  position: absolute;
+  right: -303px;
+  top: 1;
+}
+
+.structure.male .body_list.left > li.handMpointer {
+  left: -5px;
+  top: 235px;
+}
+.structure.male .body_list.left > li.handMpointer > a:before {
+  content: url(../../image/body/handMpointerImgWhite.png);
+  position: absolute;
+  right: -250px;
+  top: 10px;
+}
+
+.structure.male .body_list.left > li.lowerBackMpointer {
+  left: 50px;
+  top: 360px;
+}
+.structure.male .body_list.left > li.lowerBackMpointer > a:before {
+  content: url(../../image/body/lowerBackMpointerImgWhite.png);
+  position: absolute;
+  right: -285px;
+  top: 0px;
+}
+.body_list.left > li.lowerBackMpointer > a:hover:before,
+.structure.male .body_list.left > li.lowerBackMpointer:hover > a:before {
+  content: url(../../image/body/lowerBackMpointerImgWhite.png);
+}
+.body_list.left > li.lowerBackMpointer > a:hover .txt,
+.structure.male .body_list.left > li.lowerBackMpointer:hover > a .txt {
+  transform: scale(1.5);
+  top: -10px;
+  left: -20px;
+  color: #f87a2f;
+}
+.structure.male .body_list.left > li.lowerBackMpointer .right_txt {
+  left: -370px;
+}
+.structure.male .body_list.left > li.lowerBackMpointer:hover .right_txt {
+  left: -380px;
+}
+.structure.male .body_list.left > li.lowerBackMpointer > a > .txt {
+  white-space: nowrap;
+}
+.structure.male .body_list.left > li.reproductiveMpointer {
+  left: 55px;
+  top: 365px;
+}
+
+.structure.male .body_list.left > li.reproductiveMpointer .right_txt {
+  left: -370px;
+}
+.structure.male .body_list.left > li.reproductiveMpointer:hover .right_txt {
+  left: -380px;
+}
+.structure.male .body_list.left > li.reproductiveMpointer > a > .txt {
+  text-align: left;
+  line-height: 16px;
+}
+.structure.male .body_list.left > li.thighMpointer {
+  left: 80px;
+  top: 500px;
+}
+.structure.male .body_list.left > li.thighMpointer > a:before {
+  content: url(../../image/body/elbowMpointerImgWhite.png);
+  position: absolute;
+  right: -205px;
+  top: 2;
+}
+
+.structure.male .body_list.left > li.footMpointer {
+  left: 20px;
+  top: 635px;
+}
+.structure.male .body_list.left > li.footMpointer > a:before {
+  content: url(../../image/body/footMpointerImgWhite.png);
+  position: absolute;
+  right: -265px;
+  top: -5;
+}
+
+.structure.male .body_list.right > li > a > .txt {
+  left: auto;
+  right: -40px;
+}
+.body_list.right > li > a:hover .txt,
+.structure.male .body_list.right > li:hover > a .txt {
+  left: auto;
+  right: -50px;
+}
+.structure.male .body_list.right > li.brainMpointer {
+  left: -132px;
+  top: 40px;
+}
+.structure.male .body_list.right > li.brainMpointer > a:before {
+  content: url(../../image/body/brainMpointerImgWhite.png);
+  position: absolute;
+  left: -210px;
+  top: -12px;
+  width: 200px;
+}
+
+.structure.male .body_list.right > li.noseMpointer {
+  left: -110px;
+  top: 80px;
+}
+.structure.male .body_list.right > li.noseMpointer > a:before {
+  content: url(../../image/body/noseMpointerImgWhite.png);
+  position: absolute;
+  left: -235px;
+  top: -13px;
+  width: 182px;
+}
+
+.structure.male .body_list.right > li.heartMpointer {
+  left: -145px;
+  top: 162px;
+}
+.structure.male .body_list.right > li.heartMpointer > a:before {
+  content: url(../../image/body/elbowMpointerImgWhite.png);
+  position: absolute;
+  left: -170px;
+  top: 2;
+  width: 160px;
+}
+
+
+
+.structure.male .body_list.right > li.lungMpointer {
+  left: -143px;
+  top: 197px;
+}
+.structure.male .body_list.right > li.lungMpointer > a:before {
+  content: url(../../image/body/elbowMpointerImgWhite.png);
+  position: absolute;
+  left: -170px;
+  top: 2;
+  width: 160px;
+}
+
+
+
+.structure.male .body_list.right > li.elbowMpointer {
+  left: -75px;
+  top: 260px;
+}
+.structure.male .body_list.right > li.elbowMpointer > a:before {
+  content: url(../../image/body/elbowMpointerImgWhite.png);
+  position: absolute;
+  left: -170px;
+  top: 2;
+  width: 160px;
+}
+
+
+
+.structure.male .body_list.right > li.spineMpointer {
+  left: -145px;
+  top: 295px;
+}
+.structure.male .body_list.right > li.spineMpointer > a:before {
+  content: url(../../image/body/spineMpointerImgWhite.png);
+  position: absolute;
+  left: -210px;
+  top: -10px;
+  width: 200px;
+}
+
+
+
+.structure.male .body_list.right > li.stomachMpointer {
+  left: -115px;
+  top: 340px;
+}
+.structure.male .body_list.right > li.stomachMpointer > a:before {
+  content: url(../../image/body/brainMpointerImgWhite.png);
+  position: absolute;
+  left: -235px;
+  top: -13px;
+  width: 198px;
+}
+
+
+
+.structure.male .body_list.right > li.hipMpointer {
+  left: -92px;
+  top: 372px;
+}
+.structure.male .body_list.right > li.hipMpointer > a {
+  min-width: 90px;
+}
+.structure.male .body_list.right > li.hipMpointer > a:before {
+  content: url(../../image/body/hipMpointerImgWhite.png);
+  position: absolute;
+  left: -195px;
+  top: 2;
+  width: 200px;
+}
+
+
+
+.structure.male .body_list.right > li.kneeMpointer {
+  left: -155px;
+  top: 780px;
+}
+.structure.male .body_list.right > li.kneeMpointer > a:before {
+  content: url(../../image/body/elbowMpointerImgWhite.png);
+  position: absolute;
+  left: -165px;
+  top: 2;
+  width: 160px;
+}
+
+
+
+
+.structure.male .body_list.right > li.ankleMpointer {
+  left: -75px;
+  top: 730px;
+}
+.structure.male .body_list.right > li.ankleMpointer > a:before {
+  content: url(../../image/body/ankleMpointerImgWhite.png);
+  position: absolute;
+  left: -228px;
+  top: 15px;
+  width: 215px;
 }

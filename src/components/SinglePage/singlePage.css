@@ -1,3 +1,7 @@
+.new-line {
+  white-space: pre-line;
+}
+
 .category .box-container {
     display: grid;
    justify-content:space-around;
@@ -34,6 +38,7 @@
 
 
 .about {
+  font-size: 2rem;
     background: #eee;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -61,7 +66,7 @@
   }
   
   .about .content {
-    -webkit-box-flex: 1;
+    -webkit-box-flex: 2;
         -ms-flex: 1 1 42rem;
             flex: 1 1 42rem;
   }
