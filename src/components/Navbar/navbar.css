@@ -94,7 +94,7 @@ header .navbar a{
 }
 
 .icons ul li a{
-  color: rgb(190, 8, 8);
+  color: rgb(245, 240, 240);
   border-radius: .5rem;
   display: block;
   width: 100%;
@@ -102,7 +102,7 @@ header .navbar a{
   line-height: 47px;
   font-size: 20px;
   font-weight: 900;
-  background: white;
+  background: rgb(224, 47, 47);
   transition: .5s;
 }
 .icons ul li a:hover,
@@ -112,7 +112,7 @@ header .navbar a{
 }
 .icons ul ul{
   display: inline-block;
-  width: 12%;
+  width: 18%;
   position: fixed;
   opacity: 0;
   visibility: hidden;

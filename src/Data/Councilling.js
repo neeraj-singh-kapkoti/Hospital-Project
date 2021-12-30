@@ -1,11 +1,17 @@
 import backG from "../image/general-surgery.jpg"
 import pic from "../image/doc.jpg"
 import doc from "../image/drNew.png"
+import pic1 from "../image/treatment/Bmt.jpg"
+import pic3 from "../image/treatment/Dental-Care.jpg"
+import pic4 from "../image/treatment/Ent.jpg"
+import pic5 from "../image/treatment/eye.jpg"
+import pic6 from "../image/treatment/Header_Pediatric-Surgery.jpg"
+import pic7 from "../image/treatment/orthopadic.jpg"
 
 
 const Councilling = [
     {
-        logo: backG,
+        logo: pic1,
         title: "Psychiatry",
         desc: "Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders",
         doc_img: doc,
@@ -22,7 +28,7 @@ const Councilling = [
     },
    {
 
-        logo: pic,
+        logo: pic3,
         title: "Child Disease",
         desc: "A pediatrician examines all the diseases related to children",
         doc_img: doc,
@@ -48,7 +54,7 @@ const Councilling = [
 },
 
     {
-        logo: backG,
+        logo: pic4,
         title: "ORTHOPADIC",
         desc: "Orthopedics is a branch of medicine that focuses on the care of the skeletal system and its interconnecting parts.",
         doc_img: doc,
@@ -74,7 +80,7 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
   },   
 
     {
-         logo: backG,
+         logo: pic5,
             title: "EYE SURGERY",
             desc: "Eye doctor deals with the diseases related to eyes.",
             doc_img: doc,
@@ -93,7 +99,7 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
 
 },
     {
-        logo: backG,
+        logo: pic6,
         title: "ENT",
         desc: "An ear, nose, and throat doctor (ENT) specializes in everything having to do with those parts of the body.",
         doc_img: doc,

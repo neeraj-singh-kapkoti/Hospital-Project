@@ -3,7 +3,7 @@
 }
 
 .ward h4 {
-    background-color: red;
+    background-color: var(--blue);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;

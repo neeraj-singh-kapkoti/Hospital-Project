@@ -1,5 +1,12 @@
 import backG from "../image/general-surgery.jpg"
-import pic from "../image/doc.jpg"
+import pic1 from "../image/treatment/Bmt.jpg"
+import pic3 from "../image/treatment/Dental-Care.jpg"
+import pic4 from "../image/treatment/Ent.jpg"
+import pic5 from "../image/treatment/eye.jpg"
+import pic6 from "../image/treatment/Header_Pediatric-Surgery.jpg"
+import pic7 from "../image/treatment/orthopadic.jpg"
+import pic8 from "../image/treatment/Dental-Care.jpg"
+import pic9 from "../image/treatment/orthopedic.jpg"
 import doc from "../image/drNew.png"
 
 
@@ -7,7 +14,7 @@ const serviceData = [
     {
         logo: backG,
         title: "GENERAL SURGERY",
-        desc: "General surgery is a surgical specialty that focuses on abdominal contents including the esophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix and bile ducts, and often the thyroid gland.",
+        desc: "General surgery is a surgical specialty that focuses on abdominal appendix and bile ducts, and often the thyroid gland.",
         doc_img: doc,
         docName: "s s bora",
         docEduc: "MBBS",
@@ -30,12 +37,11 @@ const serviceData = [
                 cost: 600
             }
         ],
-        DETAILS : `General surgery is a surgical specialty that focuses on abdominal contents including the esophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix and bile ducts, and often the thyroid gland. They also deal with diseases involving the skin, breast, soft tissue, trauma, Peripheral artery disease and hernias and perform endoscopic procedures such as gastroscopy and colonoscopy. \n For more information https://en.wikipedia.org/wiki/General_surgery`,
-        DETAILS1 :`  `
+        DETAILS1 : `General surgery is a surgical specialty that focuses on abdominal`,
     },
    {
 
-        logo: pic,
+        logo: pic1,
         title: "Child Disease",
         desc: "A pediatrician examines all the diseases related to children",
         doc_img: doc,
@@ -76,7 +82,7 @@ const serviceData = [
 },
 
     {
-        logo: backG,
+        logo: pic3,
         title: "ORTHOPADIC",
         desc: "Orthopedics is a branch of medicine that focuses on the care of the skeletal system and its interconnecting parts.",
         doc_img: doc,
@@ -117,7 +123,7 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
   },   
 
     {
-         logo: backG,
+         logo: pic4,
             title: "EYE SURGERY",
             desc: "Eye doctor deals with the diseases related to eyes.",
             doc_img: doc,
@@ -152,7 +158,7 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
 
 },
     {
-        logo: backG,
+        logo: pic5,
         title: "ENT",
         desc: "An ear, nose, and throat doctor (ENT) specializes in everything having to do with those parts of the body.",
         doc_img: doc,
@@ -195,7 +201,7 @@ For more information click here:
        https://www.webmd.com/a-to-z-guides/what-is-an-ent-ear-nose-throat-doctor`
    },
      {
-        logo: backG,
+        logo: pic6,
         title: "DENTIST",
         desc: "Dentists are trained professionals who help care for the teeth and mouth.",
         doc_img: doc,
@@ -228,7 +234,7 @@ For more information click here:
 For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-dentist `
 },
         {
-            logo: backG,
+            logo: pic7,
             title: "PATHOLOGIST",
             desc: "A pathologist is a medical healthcare provider who examines bodies and body tissues..",
             doc_img: doc,
@@ -259,7 +265,7 @@ For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-d
   DETAILS1 :` https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/the-pathologist#:~:text=A%20pathologist%20is%20a%20medical,member%20of%20the%20treatment%20team.`
   },
  {
-        logo: backG,
+        logo: pic8,
         title: "PHYSICIAN",
         desc: "Physicians work to maintain, promote, and restore health by studying, diagnosing, and treating injuries and diseases..",
         doc_img: doc,
@@ -290,7 +296,7 @@ For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-d
    https://www.webmd.com/a-to-z-guides/what-is-physician`
 },
     {
-        logo: backG,
+        logo: pic9,
         title: "RADIOLOGY",
         desc: "Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease.Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease..",
         doc_img: doc,
@@ -322,7 +328,7 @@ For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-d
    https://medlineplus.gov/ency/article/007451.htm`
     },
     {
-        logo: backG,
+        logo: pic3,
         title: "SKIN TREATMENT",
         desc: "A dermatologist is a doctor who specializes in conditions involving the skin, hair, and nails. A dermatologist can identify and treat more than 3,000 conditions.",
         doc_img: doc,

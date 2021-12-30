@@ -2,7 +2,7 @@ footer {
     background: #eeeeee;
     padding: 0 0 30px 0;
     color: #555555;
-    font-size: 14px;
+    font-size: 18px;
   }
   
 .footer-top {
@@ -32,7 +32,7 @@ footer {
 .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #1977cc;
+    background: var(--blue);
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -68,7 +68,7 @@ footer {
   
 .footer-top .footer-links ul .ico {
     padding-right: 2px;
-    color: #3fbbc0;
+    color: var(--blue);
     font-size: 18px;
     line-height: 1;
   }
@@ -91,7 +91,7 @@ footer {
   }
   
 .footer-top .footer-links ul a:hover {
-    color: #3fbbc0;
+    color: var(--blue);
     margin-left: 10px;
   }
   

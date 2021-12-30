@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillFacebook} from "react-icons/ai";
+import { IoIosArrowDroprightCircle} from "react-icons/io";
 import "./footer.css"
 
 function Footer() {
@@ -24,14 +24,14 @@ function Footer() {
                       href="https://www.facebook.com/groups/577400563258704"
                       className="facebook"
                     >
-                      <AiFillFacebook className="ico"/>
+                      <IoIosArrowDroprightCircle className="ico"/>
                     </a>
                     <a href="#" className="instagram">
-                        <AiFillFacebook className="ico"/>  </a>
+                        <IoIosArrowDroprightCircle className="ico"/>  </a>
                     <a href="#" className="twitter">
-                        <AiFillFacebook className="ico"/>  </a>
+                        <IoIosArrowDroprightCircle className="ico"/>  </a>
                     <a href="#" className="google-plus">
-                        <AiFillFacebook className="ico"/>  </a>
+                        <IoIosArrowDroprightCircle className="ico"/>  </a>
                   </div>
                 </div>
               </div>
@@ -40,22 +40,22 @@ function Footer() {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <AiFillFacebook className="ico"/> <a href="#">Home</a>
+                    <IoIosArrowDroprightCircle className="ico"/> <a href="#">Home</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#about">About us</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#services">Services</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#doctor">Doctors</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
@@ -65,23 +65,23 @@ function Footer() {
                 <h4>Our Services</h4>
                 <ul>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#">Web Design</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#">Extra Web Course</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#">Navbar Tutorial</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#">Marketing</a>
                   </li>
                   <li>
-                    <AiFillFacebook className="ico"/>{" "}
+                    <IoIosArrowDroprightCircle className="ico"/>{" "}
                     <a href="#">Graphic Design</a>
                   </li>
                 </ul>
@@ -112,8 +112,8 @@ function Footer() {
           </div>
           <div className="credits">
             Designed by{" "}
-            <a href="https://www.youtube.com/channel/UCc5GjlNTdSV4ZZCsX61mccg">
-              Kapkoti herooo
+            <a href="">
+              SIT Student
             </a>
           </div>
         </div>

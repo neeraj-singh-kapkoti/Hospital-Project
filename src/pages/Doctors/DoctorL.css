@@ -1,0 +1,15 @@
+.doctorsL .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap:1rem;
+    padding: 0px 13px;
+  }
+
+.doctorsL .box-container .box img{
+    height: 14rem;
+    width: 23rem;
+    border:var(--border);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }

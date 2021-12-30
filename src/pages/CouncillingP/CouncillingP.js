@@ -14,13 +14,8 @@ function CouncillingP() {
       <section id="singlePage" className="singlePage">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h1 className="heading">
-              {" "}
-              our <span>services</span>{" "}
-            </h1>
-            <h2>{type}</h2>
-            <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "70vh"}} className="d-flex align-items-center">
-              <div className="container">
+            <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "100vh"}} className="d-flex align-items-center">
+              <div className="container" style={{backgroundColor: "var(--brown)"}}>
                 <h1>
                   {type}
                 </h1>
@@ -52,10 +47,6 @@ function CouncillingP() {
       </section>
 
       <section className="about" id="about">
-        <div className="image">
-          <img src={logo} alt="" />
-        </div>
-
         <div className="content">
           <h3>What is {type} ?</h3>
           <p className="new-line">

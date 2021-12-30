@@ -2,3 +2,6 @@
 .pic-box{
   color: rgb(74, 89, 153);
 }
+.img-fluid{
+  height: 100rem;
+}

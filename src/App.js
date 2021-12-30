@@ -18,12 +18,17 @@ import Test2 from './pages/TestP/Test2';
 import Page2 from './pages/OtherP/page2';
 import Councilling from './pages/CouncillingP/CouncillingList';
 import CouncillingP from './pages/CouncillingP/CouncillingP';
+import DoctorL from './pages/Doctors/DoctorL';
+import About from './pages/About/About';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<HomeP/>} />
+      </Routes>
+      <Routes>
+        <Route path="/DoctorList" exact element={<DoctorL/>} />
       </Routes>
       <Routes>
         <Route path="/service" element={<ServiceList/>} />
@@ -54,6 +59,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/councillingP" element={<CouncillingP/>} />
+      </Routes>
+      <Routes>
+        <Route path="/about" element={<About/>} />
       </Routes>
   </BrowserRouter>
   );

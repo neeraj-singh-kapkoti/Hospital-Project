@@ -29,8 +29,14 @@ function Doctor() {
             <h3>john deo</h3>
             <span>expert doctor</span>
           </div>
+          
+          <div className="box">
+            <img src={img} alt="" />
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+          </div>
         </div>
-        <a href="/service" className="btn-get-started scrollto">
+        <a href="/DoctorList" className="btn-get-started scrollto">
             More
           </a>
       </section>

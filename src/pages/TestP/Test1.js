@@ -13,9 +13,8 @@ function Test1() {
           <div className="section-title">
             <h1 className="heading">
               {" "}
-              Type of <span>Tests</span>{" "}
+              Pathological tests in <span>Hospital</span>{" "}
             </h1>
-            <h2>Pathological tests in Hospital</h2>
           </div>
             
             <h2>What are pathology tests?</h2>

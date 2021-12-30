@@ -8,10 +8,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "grey",
         padding: "30px",
         fontSize: '200pt',
-    },
-    table: {
-        fontSize: '200pt',
-    },
+    }
 }))
 
 export const TableR = (props) => {
@@ -19,9 +16,11 @@ export const TableR = (props) => {
  const classes = useStyles()
  const [users, setUsers] = useState(props.item);
   return (
+    <section className="table">
       <Container className={classes.root} >
+                <h1 className="heading">TREATMENT COST</h1>
         <TableContainer component={Paper}>
-            <Table className={classes.table} style={{fontSize: "500pt"}} >
+            <Table className={classes.table} >
                 <TableHead>
                     <TableRow>
                         <TableCell>TreatMent/Services</TableCell>
@@ -40,5 +39,6 @@ export const TableR = (props) => {
             </Table>
         </TableContainer>
       </Container>
+      </section>
   )
 }

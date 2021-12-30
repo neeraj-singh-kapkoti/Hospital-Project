@@ -10,7 +10,7 @@ function ListP() {
     <div>
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading">popular packages</h1>
+        <h1 className="heading">Treatment/Services</h1>
 
         <div className="box-container">
           {data.map((product) => {

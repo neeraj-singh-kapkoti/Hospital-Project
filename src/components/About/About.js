@@ -14,31 +14,31 @@ function About() {
         <div className="box-container">
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <h4>District Manager</h4>
+            <h3>C M O</h3>
+           
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid"
             </p>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <h4>District Manager</h4>
+            <h3>C M O</h3>
+           
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid"
             </p>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <h4>District Manager</h4>
+            <h3>C M O</h3>
+           
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid"
             </p>
           </div>
         </div>
