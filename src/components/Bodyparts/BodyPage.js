@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import "./singleP.css";
+import "../../pages/ServiceP/SingleP.css";
 import { useLocation } from "react-router-dom";
 import SinglePage from "../../components/SinglePage/SinglePage";
 

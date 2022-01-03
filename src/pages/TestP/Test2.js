@@ -12,13 +12,13 @@ function Test2() {
 
       <section id="singlePage" className="singlePage">
         <div className="container" data-aos="fade-up">
-          <div className="section-title">
+          <div className="section-title sec-top">
             <section
               id="home"
               style={{
                 backgroundImage: `url(${img})`,
                 width: "100%",
-                height: "100vh",
+                height: "75vh",
               }}
               className="d-flex align-items-center"
             >
@@ -46,10 +46,10 @@ function Test2() {
             <img src={doc} alt="" />
           </div>
           <div className="box2">
-              <h1>Name : s s bora</h1>
-              <h1>Education : MBBS</h1>
-              <h1>Profetion : GENERAL SURGEAN</h1>
-              <h1>Room NO : 15</h1>
+              <h5>Name : s s bora</h5>
+              <h5>Education : MBBS</h5>
+              <h5>Profetion : GENERAL SURGEAN</h5>
+              <h5>Room NO : 15</h5>
             </div>
           </div>
         </section>

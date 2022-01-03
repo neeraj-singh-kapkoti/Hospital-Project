@@ -11,7 +11,7 @@ function Test1() {
       <section id="singlePage" className="singlePage">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h1 className="heading">
+            <h1 className="heading headingPage">
               {" "}
               Pathological tests in <span>Hospital</span>{" "}
             </h1>

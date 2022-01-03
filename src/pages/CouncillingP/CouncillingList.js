@@ -10,7 +10,7 @@ function CouncillingList() {
     <div>
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading">Counselling</h1>
+        <h1 className="heading headingPage">Counselling</h1>
 
         <div className="box-container">
           {data.map((product) => {

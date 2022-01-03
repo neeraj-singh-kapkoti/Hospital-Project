@@ -1,6 +1,7 @@
 import React from "react";
 import "./Doctor.css";
-import img from "../../image/doc.jpg";
+import img from "../../image/drNew.png";
+
 
 function Doctor() {
   return (
@@ -14,26 +15,30 @@ function Doctor() {
         <div className="box-container">
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <span>expert doctor</span>
+            <h4>S S BORA</h4>
+            <h5>GENERAL SURGEAN</h5>
+            <h5>MBBS</h5>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <span>expert doctor</span>
+            <h4>S S BORA</h4>
+            <h5>GENERAL SURGEAN</h5>
+            <h5>MBBS</h5>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <span>expert doctor</span>
+            <h4>S S BORA</h4>
+            <h5>GENERAL SURGEAN</h5>
+            <h5>MBBS</h5>
           </div>
           
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
-            <span>expert doctor</span>
+            <h4>S S BORA</h4>
+            <h5>GENERAL SURGEAN</h5>
+            <h5>MBBS</h5>
           </div>
         </div>
         <a href="/DoctorList" className="btn-get-started scrollto">

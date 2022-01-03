@@ -43,7 +43,7 @@ const serviceData = [
 
         logo: pic1,
         title: "Child Disease",
-        desc: "A pediatrician examines all the diseases related to children",
+        desc: "A pediatrician examines all the diseases related to children A pediatrician examines all the diseases related to children",
         doc_img: doc,
         type: "Child Disease",
         docName: "Dr S S NABIYAL",
@@ -125,7 +125,7 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
     {
          logo: pic4,
             title: "EYE SURGERY",
-            desc: "Eye doctor deals with the diseases related to eyes.",
+            desc: "Eye doctor deals with the diseases related to eyes doctor deals with the diseases related to eyes.",
             doc_img: doc,
             type: "EYE TREATMENTS",
             docName: "K S BRIJWAL",
@@ -160,7 +160,7 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
     {
         logo: pic5,
         title: "ENT",
-        desc: "An ear, nose, and throat doctor (ENT) specializes in everything having to do with those parts of the body.",
+        desc: "An ear, nose, and throat doctor (ENT) specializes in everything.",
         doc_img: doc,
         type: "ENT",
         docName: "Dr Kavita Lohani",

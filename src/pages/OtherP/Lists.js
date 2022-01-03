@@ -1,8 +1,8 @@
 import React from "react";
 import "./Lists.css";
 import pic3 from "../../image/treatment/Dental-Care.jpg"
-import pic4 from "../../image/treatment/Ent.jpg"
-import pic5 from "../../image/treatment/eye.jpg"
+import pic4 from "../../image/vaccine.jpg"
+import pic5 from "../../image/ward.jpg"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
@@ -11,19 +11,19 @@ function Lists() {
 
     const data = [
         {
-            logo: pic3,
+            logo: pic5,
             link: "Test",
             title: "WARD",
             desc: "The hospital has 16 bedded, special wards Patients can either take full room or single sharing bed according to their convenience."
         },
         {
-          logo: pic4,
+          logo: pic3,
           link: "Test2",
           title: "Registration fee in hospital",
           desc: "Medicines prescribed by CGHS doctors/specialists, which are available in Wellness Center are supplied immediately."
       },
         {
-            logo: pic5,
+            logo: pic4,
             link: "Test2",
             title: "vaccine available",
             desc: "1. BCG (Bacillus Calmette Guerin) 2. DPT (Diphtheria, Pertussis and Tetanus Toxoid) 3. OPV (Oral Polio Vaccine)"
@@ -34,7 +34,7 @@ function Lists() {
     <div>
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading">Other Services</h1>
+        <h1 className="heading headingPage">Other Services</h1>
 
         <div className="box-container">
           {data.map((product) => {

@@ -6,11 +6,14 @@ import About from '../components/About/About'
 import AboutCount from '../components/AboutCount/AboutCount'
 import Doctor from '../components/Doctor/Doctor'
 import Bodyparts from '../components/Bodyparts/Bodyparts'
+import Scroll from "../components/Scroll/Scroll"
 
 
 function HomeP() {
     return (
         <div>
+
+            <Scroll showBelow={250} />
             <Navbar />
             <CarouselContainer />
             <Bodyparts />

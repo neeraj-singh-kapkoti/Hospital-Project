@@ -4,16 +4,21 @@ import data from "../../Data/ServiceData";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
+import Scroll from "../../components/Scroll/Scroll"
+
 
 function ListP() {
+  console.log(data);
   return (
     <div>
+       <Scroll showBelow={250} />
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading">Treatment/Services</h1>
+        <h1 className="heading headingPage"><span>Treatment/Services</span></h1>
 
         <div className="box-container">
           {data.map((product) => {
+            
             return (
               <Link
                 to="/servicePage"

@@ -10,7 +10,7 @@ function TestList() {
     <div>
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading">tests</h1>
+        <h1 className="heading headingPage">tests</h1>
 
         <div className="box-container">
           {data.map((product) => {

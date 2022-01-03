@@ -5,7 +5,7 @@ import image3 from '../../image/home/FORTIS_SAVE-THE-SAVIOUR_DesktopBanner_new_1
 
 const CarouselContainer = () => {
   return (
-    <div className='container'>
+    <div className='container' style={{marginTop:"5rem"}}>
     <Carousel fade={true} pause={false}>
       <Carousel.Item interval={3000}>
         <img
@@ -15,10 +15,7 @@ const CarouselContainer = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          {/* <div className="pic-box" style={{backgroundColor: "var(--brown)"}} >
-             <h1 className="text-success">First slide label</h1>
-             <p className="display-6">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div> */}
+        
          
         </Carousel.Caption>
       </Carousel.Item>
@@ -32,10 +29,7 @@ const CarouselContainer = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-        {/* <div className="pic-box" style={{backgroundColor: "var(--brown)"}} >
-             <h1 className="text-success">First slide label</h1>
-             <p className="display-6">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div> */}
+      
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -48,10 +42,7 @@ const CarouselContainer = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-        {/* <div className="pic-box" style={{backgroundColor: "var(--brown)"}} >
-             <h1 className="text-success">First slide label</h1>
-             <p className="display-6">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div> */}
+      
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

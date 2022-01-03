@@ -1,7 +1,7 @@
 
 *{
   font-family: 'Nunito', sans-serif;
-  margin:0; padding:0px 1px;
+  margin:1px; padding:0px 1px;
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border:none;
@@ -9,16 +9,15 @@
 }
 
 :root{
-  --green:#16a085;
   --black:#444;
-  --light-color:#777;
   --blue: #024754;
+  --blue: #232F3E;
   --brown: #333;
   --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
   --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
   --border:.2rem solid var(--green);
-   --green:#27ae60;
-  --light-color:#666;
+   --green:#00a951;
+  --light-color:#d1d2dc;
   --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
@@ -49,7 +48,11 @@ html{
 }
 
  section{
-  padding: 50px 0;
+  overflow: hidden;
+}
+
+.sec-top{
+  padding: 5.5rem 0;
   overflow: hidden;
 }
 /*
@@ -101,22 +104,23 @@ html{
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 35px;
-  margin-top: 30px;
+  padding: 0.6rem 2rem;
+  margin: 0.3rem 0.7rem;
   border-radius: 50px;
   transition: 0.5s;
   color: black;
-  background: orange;
+  background: rgb(228, 164, 45);
 }
 .btn-get-started:hover {
   background: #e6eaeb;
+  color: rgb(228, 164, 45);
 }
 
 
 .container {
-  margin-top: 15px;
+  margin-top: 10px;
   max-width: 98% !important;/*Set your own width %; */
 }

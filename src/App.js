@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 
+
 import HomeP from './pages/HomeP';
 import ServiceList from './pages/ServiceP/ServicesList';
 import SingleP from './pages/ServiceP/SingleP';
@@ -25,10 +26,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<HomeP/>} />
+        <Route path="/" element={<HomeP/>} />
       </Routes>
       <Routes>
-        <Route path="/DoctorList" exact element={<DoctorL/>} />
+        <Route path="/DoctorList" element={<DoctorL/>} />
       </Routes>
       <Routes>
         <Route path="/service" element={<ServiceList/>} />

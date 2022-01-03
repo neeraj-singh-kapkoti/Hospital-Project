@@ -1,5 +1,5 @@
 .structure{
-  background-color: rgb(4, 4, 66);
+  background-color: var(--blue);
   width: 100%;
   height: 100%;
 }
@@ -17,7 +17,7 @@ img {
 }
 
 .home {
-  background-color: rgb(4, 4, 66);
+  background-color: var(--blue);
 }
 
 .structure {
@@ -25,13 +25,12 @@ img {
   position: relative;
   max-width: 695px;
   margin: auto;
-  background-color: rgb(4, 4, 66);
+  background-color: var(--blue);
 }
 
 .structure > img {
   max-width: 410px;
   display: inline-block;
-  width: 100%;
 }
 .body_list {
   position: absolute;
@@ -45,6 +44,7 @@ img {
 .body_list > li {
   position: absolute;
   top: 0;
+  left:0;
 }
 .body_list > li:hover .right_txt {
   opacity: 1;
@@ -85,7 +85,7 @@ img {
 .body_list > li > a > .txt {
   position: absolute;
   top: 1;
-  left: 1;
+  left: 0px;
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
   color: #fff;
@@ -100,48 +100,48 @@ img {
 
 
 .structure.male .body_list.left > li.eyeMpointer {
-  left: 60px;
+  left: 65px;
   top: 10px;
 }
 .structure.male .body_list.left > li.eyeMpointer > a:before {
   content: url(../../image/body/earMPointerImgWhite.png);
   position: absolute;
-  right: -265px;
-  top: 15px;
+  right: -235px;
+  top: 0px;
 }
 
 .structure.male .body_list.left > li.earMpointer {
-  left: 50px;
-  top: 60px;
+  left: 55px;
+  top: 30px;
 }
 .structure.male .body_list.left > li.earMpointer > a:before {
   content: url(../../image/body/earMPointerImgWhite.png);
   position: absolute;
-  right: -265px;
+  right: -235px;
 }
 
 
 
 
 .structure.male .body_list.left > li.teethMpointer {
-  left: 80px;
-  top: 85px;
+  left: 100px;
+  top: 62px;
 }
 .structure.male .body_list.left > li.teethMpointer > a:before {
   content: url(../../image/body/throatMpointerImgWhite.png);
   position: absolute;
-  right: -260px;
+  right: -200px;
   top: -20px;
 }
 
 .structure.male .body_list.left > li.throatMpointer {
-  left: 80px;
-  top: 150px;
+  left: 90px;
+  top: 100px;
 }
 .structure.male .body_list.left > li.throatMpointer > a:before {
   content: url(../../image/body/throatMpointerImgWhite.png);
   position: absolute;
-  right: -260px;
+  right: -200px;
   top: -23px;
 }
 .structure.male .body_list.left > li.chestMpointer {
@@ -150,35 +150,35 @@ img {
 }
 
 .structure.male .body_list.left > li.liverMpointer {
-  left: 5px;
-  top: 295px;
+  left: 30 px;
+  top: 155px;
 }
 .structure.male .body_list.left > li.liverMpointer > a:before {
   content: url(../../image/body/liverMpointerImgWhite.png);
   position: absolute;
-  right: -303px;
+  right: -263px;
   top: 1;
 }
 
 .structure.male .body_list.left > li.handMpointer {
-  left: -5px;
-  top: 235px;
+  left: 10px;
+  top: 195px;
 }
 .structure.male .body_list.left > li.handMpointer > a:before {
   content: url(../../image/body/handMpointerImgWhite.png);
   position: absolute;
-  right: -250px;
+  right: -200px;
   top: 0px;
 }
 
 .structure.male .body_list.left > li.lowerBackMpointer {
-  left: 50px;
-  top: 360px;
+  left: 100px;
+  top: 250px;
 }
 .structure.male .body_list.left > li.lowerBackMpointer > a:before {
   content: url(../../image/body/lowerBackMpointerImgWhite.png);
   position: absolute;
-  right: -285px;
+  right: -200px;
   top: 0px;
 }
 .body_list.left > li.lowerBackMpointer > a:hover:before,
@@ -217,25 +217,25 @@ img {
   line-height: 16px;
 }
 .structure.male .body_list.left > li.thighMpointer {
-  left: 80px;
-  top: 500px;
+  left: 100px;
+  top: 320px;
 }
 .structure.male .body_list.left > li.thighMpointer > a:before {
   content: url(../../image/body/elbowMpointerImgWhite.png);
   position: absolute;
-  right: -205px;
+  right: -155px;
   top: 2;
 }
 
 .structure.male .body_list.left > li.footMpointer {
-  left: 20px;
-  top: 625px;
+  left: 50px;
+  top: 420px;
 }
 .structure.male .body_list.left > li.footMpointer > a:before {
   content: url(../../image/body/footMpointerImgWhite.png);
   position: absolute;
-  right: -265px;
-  top: 10;
+  right: -220px;
+  top: 10px;
 }
 
 .structure.male .body_list.right > li > a > .txt {
@@ -260,20 +260,20 @@ img {
 }
 
 .structure.male .body_list.right > li.noseMpointer {
-  left: -80px;
-  top: 60px;
+  left: -85px;
+  top: 50px;
 }
 .structure.male .body_list.right > li.noseMpointer > a:before {
   content: url(../../image/body/noseMpointerImgWhite.png);
   position: absolute;
   left: -235px;
-  top: -13px;
+  top: -20px;
   width: 182px;
 }
 
 .structure.male .body_list.right > li.heartMpointer {
-  left: -105px;
-  top: 162px;
+  left: -125px;
+  top: 102px;
 }
 .structure.male .body_list.right > li.heartMpointer > a:before {
   content: url(../../image/body/elbowMpointerImgWhite.png);
@@ -287,7 +287,7 @@ img {
 
 .structure.male .body_list.right > li.lungMpointer {
   left: -143px;
-  top: 197px;
+  top: 127px;
 }
 .structure.male .body_list.right > li.lungMpointer > a:before {
   content: url(../../image/body/elbowMpointerImgWhite.png);
@@ -300,8 +300,8 @@ img {
 
 
 .structure.male .body_list.right > li.elbowMpointer {
-  left: -35px;
-  top: 260px;
+  left: -75px;
+  top: 160px;
 }
 .structure.male .body_list.right > li.elbowMpointer > a:before {
   content: url(../../image/body/elbowMpointerImgWhite.png);
@@ -315,43 +315,44 @@ img {
 
 .structure.male .body_list.right > li.spineMpointer {
   left: -115px;
-  top: 295px;
+  top: 190px;
 }
 .structure.male .body_list.right > li.spineMpointer > a:before {
   content: url(../../image/body/spineMpointerImgWhite.png);
   position: absolute;
   left: -210px;
-  top: -10px;
+  top: -20px;
   width: 200px;
 }
 
 
 
 .structure.male .body_list.right > li.stomachMpointer {
-  left: -75px;
-  top: 340px;
+  left: -105px;
+  top: 230px;
 }
 .structure.male .body_list.right > li.stomachMpointer > a:before {
   content: url(../../image/body/brainMpointerImgWhite.png);
   position: absolute;
-  left: -235px;
-  top: -13px;
+  left: -205px;
+  top: -23px;
   width: 198px;
 }
 
 
 
 .structure.male .body_list.right > li.hipMpointer {
-  left: -92px;
-  top: 372px;
+  left: -102px;
+  top: 252px;
 }
 .structure.male .body_list.right > li.hipMpointer > a {
   min-width: 90px;
+  left: 2px;
 }
 .structure.male .body_list.right > li.hipMpointer > a:before {
   content: url(../../image/body/hipMpointerImgWhite.png);
   position: absolute;
-  left: -195px;
+  left: -205px;
   top: 2;
   width: 200px;
 }
@@ -359,8 +360,8 @@ img {
 
 
 .structure.male .body_list.right > li.kneeMpointer {
-  left: -95px;
-  top: 780px;
+  left: -115px;
+  top: 520px;
 }
 .structure.male .body_list.right > li.kneeMpointer > a:before {
   content: url(../../image/body/elbowMpointerImgWhite.png);
@@ -374,8 +375,8 @@ img {
 
 
 .structure.male .body_list.right > li.ankleMpointer {
-  left: -35px;
-  top: 710px;
+  left: -55px;
+  top: 460px;
 }
 .structure.male .body_list.right > li.ankleMpointer > a:before {
   content: url(../../image/body/ankleMpointerImgWhite.png);
@@ -387,7 +388,11 @@ img {
 
 .body {
   max-height: max-content;
-  background-color: rgb(4, 4, 66);
-  
+  background-color: var(--blue);
 }
 
+@media (max-width:1017px){ 
+  .body {
+     display: none;
+  }
+}

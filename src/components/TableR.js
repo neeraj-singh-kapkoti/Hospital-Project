@@ -5,8 +5,8 @@ import React, {useState} from "react"
 const useStyles = makeStyles((theme) => ({
     root: {
         width: "100vw",
-        backgroundColor: "grey",
-        padding: "30px",
+        backgroundColor: "var(--light-color)",
+        padding: "0px",
         fontSize: '200pt',
     }
 }))

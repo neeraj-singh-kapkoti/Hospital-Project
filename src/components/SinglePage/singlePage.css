@@ -1,11 +1,12 @@
 .new-line {
   white-space: pre-line;
 }
-
+.category {
+  background-color: var(--blue);
+}
 .category .box-container {
     display: grid;
    justify-content:space-around;
-   
   }
   
   .category .box-container .box {
@@ -15,16 +16,15 @@
   .category .box-container .box2 {
     grid-row: 1;
   }
+  .category .box-container .box2 h5{
+    color: white;
+  }
   .category .box-container .box img {
-    height: 20rem;
-    width: 20rem;
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
   }
   
-  .category .box-container .box h3 {
-    font-size: 2rem;
-    color: #219150;
-  }
   
   .category .box-container .box p {
     font-size: 1.5rem;
@@ -37,23 +37,21 @@
 
 
 .about {
-  font-size: 1.3rem;
-    background: var(--blue);
-    display: block;
+  font-size: 1rem;
+  background: var(--light-color);
+  display: block;
     padding: 2rem;
 }
  
 
   
   .about .content h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #219150;
   }
   
   .about .content p {
-    font-size: 1.5rem;
-    color: white;
-    line-height: 1;
+    color: rgb(14, 9, 9);
   }
   
 

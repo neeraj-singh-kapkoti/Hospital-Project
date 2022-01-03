@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
-import img from "../../image/doc.jpg";
+import img from "../../image/drNew.png";
+import dm from "../../image/head/dm.jpeg"
+
 
 function About() {
   return (
@@ -8,37 +10,34 @@ function About() {
       <section className="review" id="review">
         <h1 className="heading">
           {" "}
-          head <span>review</span>{" "}
+          Message from Administrator
         </h1>
 
         <div className="box-container">
           <div className="box">
-            <img src={img} alt="" />
-            <h3>C M O</h3>
-           
+            <img src={dm} alt="" />
+            <h4>Dr. Ashish Chauhan</h4>
+            <h5>District Magistrate of Pithoragarh, Uttarakhand</h5>
             <p className="text">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid"
+              "Physicians do a lot for a patient when they give his disease a name"
             </p>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>C M O</h3>
-           
+            <h4>Dr. H S Hyanki</h4>
+            <h5>CMO of Pithoragarh, Uttarakhand</h5>
             <p className="text">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid"
+              "All doctors treat, but a good doctor lets nature heal."
             </p>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>C M O</h3>
-           
+            <h4>Dr. K C Bhatt</h4>
+            <h5>PMO of Pithoragarh, Uttarakhand</h5>
             <p className="text">
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid"
+              "Physicians do a lot for a patient when they give his disease a name"
             </p>
           </div>
         </div>

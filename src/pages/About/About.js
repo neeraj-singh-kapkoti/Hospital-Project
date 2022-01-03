@@ -2,15 +2,18 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import { Carousel } from 'react-bootstrap';
-import image1 from '../../image/about/IMG_0577_edited.jpg';
+import image1 from '../../image/about/IMG_0590_edited.jpg';
 import image2 from '../../image/about/IMG_0584_edited.jpg';
 import image3 from '../../image/about/IMG_0596_edited.jpg';
 import image4 from '../../image/about/IMG_0603_edited.jpg';
 import image5 from '../../image/about/IMG_0610_edited.jpg';
+import Scroll from "../../components/Scroll/Scroll"
+
 
 function About() {
   return (
-    <div className="container">
+    <div className="container" style={{marginTop:"6rem"}}>
+      <Scroll showBelow={250} />
       <Navbar />
 
       <Carousel fade={true} pause={false}>

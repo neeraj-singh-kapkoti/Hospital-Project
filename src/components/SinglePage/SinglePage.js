@@ -15,10 +15,10 @@ function SinglePage(props) {
           </div>
           
           <div className="box2">
-            <h2>Name : {props.item.name}</h2>
-            <h2>Education : {props.item.edu}</h2>
-            <h2>Profession : {props.item.prof}</h2>
-            <h2>Room NO : {props.item.room}</h2>
+            <h5>Name : {props.item.name}</h5>
+            <h5>Education : {props.item.edu}</h5>
+            <h5>Profession : {props.item.prof}</h5>
+            <h5>Room NO : {props.item.room}</h5>
             
           </div>
         </div>

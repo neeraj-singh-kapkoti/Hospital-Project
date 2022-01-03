@@ -2,7 +2,7 @@ import React from "react";
 import "../../components/Doctor/Doctor.css";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import img from "../../image/doc.jpg";
+import img from "../../image/drNew.png";
 import "./DoctorL.css"
 
 function DoctorL() {
@@ -11,7 +11,7 @@ function DoctorL() {
     <div className="container">
         <Navbar />
       <section className="doctors doctorsL" id="doctors">
-        <h1 className="heading">
+        <h1 className="heading headingPage">
           {" "}
           our <span>doctors</span>{" "}
         </h1>
@@ -19,81 +19,81 @@ function DoctorL() {
         <div className="box-container">
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
 
           <div className="box">
             <img src={img} alt="" />
-            <h3>john deo</h3>
+            <h4>john deo</h4>
             <span>expert doctor</span>
           </div>
         </div>

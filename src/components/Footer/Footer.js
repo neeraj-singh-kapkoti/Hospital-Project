@@ -8,95 +8,70 @@ function Footer() {
       <footer>
         <div className="footer footer-top">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-6">
+            <div className="foot-box">
+              <div className="size-foot">
                 <div className="footer-info">
-                  <h3>PR-CARE</h3>
+                  <h3>B.D. Pandey District <br />  Hospital, Pithoragarh</h3>
                   <p>
-                    KIST Hospital Road<br />44700 KTM, NEPAL<br />
+                  Mahatma Gandhi Marg, Pithoragarh, Uttarakhand 262501 <br /> Pithoragarh, Uttarakhand, India 262501<br />
                     <br />
                       <strong>Phone:</strong> +1 5589 55488 55
                     <br />
                     <strong>Email:</strong> prcare@example.com
                   </p>
-                  <div className="social-links mt-3">
-                    <a
-                      href="https://www.facebook.com/groups/577400563258704"
-                      className="facebook"
-                    >
-                      <IoIosArrowDroprightCircle className="ico"/>
-                    </a>
-                    <a href="#" className="instagram">
-                        <IoIosArrowDroprightCircle className="ico"/>  </a>
-                    <a href="#" className="twitter">
-                        <IoIosArrowDroprightCircle className="ico"/>  </a>
-                    <a href="#" className="google-plus">
-                        <IoIosArrowDroprightCircle className="ico"/>  </a>
-                  </div>
+                  
                 </div>
               </div>
 
-              <div className="col-lg-2 col-md-6 footer-links">
+              <div className="size-foot footer-links">
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <IoIosArrowDroprightCircle className="ico"/> <a href="#">Home</a>
+                    <IoIosArrowDroprightCircle className="ico"/> <a href="/">Home</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#about">About us</a>
+                    <a href="/service">Treatment & services</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#services">Services</a>
+                    <a href="/others"> Others</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#doctor">Doctors</a>
+                    <a href="/DoctorList">Doctors</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#contact">Contact</a>
+                    <a href="/test">Types of test</a>
                   </li>
                 </ul>
               </div>
 
-              <div className="col-lg-3 col-md-6 footer-links">
+              <div className="size-foot footer-links">
                 <h4>Our Services</h4>
                 <ul>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">Web Design</a>
+                    <a href="#">General Sergery</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">Extra Web Course</a>
+                    <a href="#">General Sergery</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">Navbar Tutorial</a>
+                    <a href="#">General Sergery</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">Marketing</a>
+                    <a href="#">General Sergery</a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">Graphic Design</a>
+                    <a href="#">General Sergery</a>
                   </li>
                 </ul>
-              </div>
-
-              <div className="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Our Newsletter</h4>
-                <p>
-                  Tamen quem nulla quae legam multos aute sint culpa legam
-                  noster magna
-                </p>
-                <form action="" method="post">
-                  <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
-                </form>
               </div>
             </div>
           </div>
@@ -106,7 +81,7 @@ function Footer() {
           <div className="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>PR-CARE</span>
+              <span>B.D. Pandey District Hospital, Pithoragarh</span>
             </strong>
             . All Rights Reserved
           </div>

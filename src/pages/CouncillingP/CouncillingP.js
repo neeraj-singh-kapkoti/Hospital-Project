@@ -9,16 +9,16 @@ function CouncillingP() {
   const location = useLocation();
   const { logo,img, name, edu, prof, room, type, desc, details, details1} = location.state;
   return (
-    <div>
+    <div className="container">
       <Navbar />
       <section id="singlePage" className="singlePage">
-        <div className="container" data-aos="fade-up">
+        <div data-aos="fade-up">
           <div className="section-title">
             <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "100vh"}} className="d-flex align-items-center">
               <div className="container" style={{backgroundColor: "var(--brown)"}}>
-                <h1>
+                <h5>
                   {type}
-                </h1>
+                </h5>
                 <h2>
                   {desc}
                 </h2>
@@ -27,7 +27,6 @@ function CouncillingP() {
           </div>
         </div>
       </section>
-    
       <section className="category">
         <h1 className="heading">About Doc</h1>
 
@@ -37,10 +36,10 @@ function CouncillingP() {
           </div>
           
           <div className="box2">
-            <h1>Name : {name}</h1>
-            <h1>Education : {edu}</h1>
-            <h1>Profetion : {prof}</h1>
-            <h1>Room NO : {room}</h1>
+            <h5>Name : {name}</h5>
+            <h5>Education : {edu}</h5>
+            <h5>Profetion : {prof}</h5>
+            <h5>Room NO : {room}</h5>
             
           </div>
         </div>

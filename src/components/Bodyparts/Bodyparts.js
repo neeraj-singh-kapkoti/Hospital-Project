@@ -1,137 +1,460 @@
 import React from "react";
 import "./bodyparts.css";
 import body from "../../image/body/man.png";
+import data from "../../Data/ServiceData";
+import {Link} from "react-router-dom"
 
 function Bodyparts() {
   return (
 
       <div className="container">
-         <h1 className="heading">
-          {" "}
-          BODY <span>Parts</span>{" "}
-        </h1>
       <div className="body">
+    <h1 className="heading">Uncertainity About Body Parts ??</h1>
     <div className="structure male">
       <img src={body} />
       <ul className="body_list left">
+        
         <li className="eyeMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Eye</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="earMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Ear</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
 
         <li className="teethMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Teeth</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="throatMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Throad</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="liverMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Liver</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="handMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Arm</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
 
         <li className="lowerBackMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Lower back</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
 
         <li className="thighMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Thigh</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="footMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Foot</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
       </ul>
       <ul className="body_list right">
         <li className="brainMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Brain</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="noseMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Nose</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="heartMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Heart</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="lungMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Lung</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="elbowMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Elbow</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="spineMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Spine</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="stomachMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Stomach</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="hipMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Hip</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="kneeMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Knee</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
         <li className="ankleMpointer">
-          <a href="/test">
+        <Link to="/servicePage"
+                key={data[0].title}
+                state={{
+                  logo:data[0].logo,
+                  img: data[0].doc_img,
+                  details: data[0].DETAILS,
+                  details1: data[0].DETAILS1,
+                  type: data[0].title,
+                  name: data[0].docName,
+                  prof: data[0].docProf,
+                  edu: data[0].docEduc,
+                  room: data[0].roomNo,
+                  desc: data[0].desc,
+                  test: data[0].data
+                }}
+              >
+          <a href="./lora.html">
             <span className="txt">Ankle</span>
             <span className="dot"></span>
           </a>
+          </Link>
         </li>
       </ul>
     </div>
