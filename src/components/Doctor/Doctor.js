@@ -1,6 +1,7 @@
 import React from "react";
 import "./Doctor.css";
 import img from "../../image/drNew.png";
+import {Link} from "react-router-dom"
 
 
 function Doctor() {
@@ -41,9 +42,9 @@ function Doctor() {
             <h5>MBBS</h5>
           </div>
         </div>
-        <a href="/DoctorList" className="btn-get-started scrollto">
+        <Link to="/DoctorList" className="btn-get-started scrollto">
             More
-          </a>
+          </Link>
       </section>
     </div>
   );

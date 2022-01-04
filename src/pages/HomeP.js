@@ -12,14 +12,13 @@ import Scroll from "../components/Scroll/Scroll"
 function HomeP() {
     return (
         <div>
-
             <Scroll showBelow={250} />
             <Navbar />
             <CarouselContainer />
             <Bodyparts />
             <Doctor />
+            <AboutCount />
             <About />
-            {/* <AboutCount /> */}
             <Footer />
         </div>
     )

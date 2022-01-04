@@ -11,10 +11,10 @@ function CouncillingP() {
   return (
     <div className="container">
       <Navbar />
-      <section id="singlePage" className="singlePage">
+      <section id="singlePage" className="singlePage sec-top">
         <div data-aos="fade-up">
           <div className="section-title">
-            <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "100vh"}} className="d-flex align-items-center">
+            <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "70vh"}} className="d-flex align-items-center">
               <div className="container" style={{backgroundColor: "var(--brown)"}}>
                 <h5>
                   {type}

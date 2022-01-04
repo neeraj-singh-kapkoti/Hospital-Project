@@ -14,7 +14,7 @@ function SingleP() {
       <section id="singlePage" className="singlePage sec-top">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "75vh"}} className="d-flex align-items-center">
+            <section id="home" style={{backgroundImage: `url(${logo})`, width: "100%", height: "70vh"}} className="d-flex align-items-center">
               <div className="container" style={{backgroundColor: "var(--brown)"}}>
                 <h1>
                   {type}

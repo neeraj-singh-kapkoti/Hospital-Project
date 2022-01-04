@@ -31,7 +31,7 @@ function Navbar(props) {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 10);
+      setScroll(window.scrollY > 1);
     });
   }, []); 
 
@@ -50,22 +50,23 @@ function Navbar(props) {
          </Link>
 
         <nav className={click ? "navbar active" : "navbar"}>
-        <Link className={ActiveClr("/")} to="/" onClick={handleClick}>
+       <Link className={ActiveClr("/")} to="/" onClick={handleClick}>
             Home
           </Link>
+        
           <Link
             to="/service"
             className={ActiveClr("/service")}
             onClick={handleClick}
           >
-            Treatment & services{" "}
+            Treatment
           </Link>
           <Link
             to="/others"
             className={ActiveClr("/others")}
             onClick={handleClick}
           >
-            Others
+            Services
           </Link>
           <Link to="/test" className={ActiveClr("/test")} onClick={handleClick}>
             Types of test
@@ -76,6 +77,13 @@ function Navbar(props) {
             onClick={handleClick}
           >
             Counselling
+          </Link>
+          <Link
+            to="/govt"
+            className={ActiveClr("/govt")}
+            onClick={handleClick}
+          >
+            Govt. Schemes
           </Link>
           <Link
             to="/about"

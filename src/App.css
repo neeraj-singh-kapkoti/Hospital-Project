@@ -1,11 +1,12 @@
 
 *{
   font-family: 'Nunito', sans-serif;
-  margin:1px; padding:0px 1px;
   box-sizing: border-box;
   text-decoration: none;
-  outline: none; border:none;
-  transition: all .2s linear;
+  outline: none; 
+  border:none;
+  transition: 0.2s;
+
 }
 
 :root{
@@ -50,9 +51,11 @@ html{
  section{
   overflow: hidden;
 }
-
+.other-top{
+  padding: 2.5rem 0;
+}
 .sec-top{
-  padding: 5.5rem 0;
+  padding: 9.5rem 0;
   overflow: hidden;
 }
 /*
@@ -112,11 +115,11 @@ html{
   border-radius: 50px;
   transition: 0.5s;
   color: black;
-  background: rgb(228, 164, 45);
+  background: #14c8eb;
 }
 .btn-get-started:hover {
   background: #e6eaeb;
-  color: rgb(228, 164, 45);
+  color: #14c8eb;
 }
 
 

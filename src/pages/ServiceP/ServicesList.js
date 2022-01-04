@@ -14,7 +14,7 @@ function ListP() {
        <Scroll showBelow={250} />
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading headingPage"><span>Treatment/Services</span></h1>
+        <h1 className="heading headingPage"><span>Treatment</span></h1>
 
         <div className="box-container">
           {data.map((product) => {

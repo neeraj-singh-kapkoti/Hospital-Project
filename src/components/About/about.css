@@ -21,7 +21,7 @@
 }
 
 .review .box-container .box img{
-  height: 20rem;
+  height: 14rem;
   width: 20rem;
   border-radius: 10%;
   object-fit: cover;
@@ -40,6 +40,5 @@
   color:black;
   line-height: 1;
   font-size: 1rem;
-  padding-top: .2rem;
 }
 

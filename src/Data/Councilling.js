@@ -12,8 +12,8 @@ import pic7 from "../image/treatment/orthopadic.jpg"
 const Councilling = [
     {
         logo: pic1,
-        title: "Psychiatry",
-        desc: "Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders",
+        title: "blood pressure",
+        desc: "High blood pressure is a common condition in which the long-term force of the blood against",
         doc_img: doc,
         docName: "s s bora",
         docEduc: "MBBS",
@@ -29,8 +29,8 @@ const Councilling = [
    {
 
         logo: pic3,
-        title: "Child Disease",
-        desc: "A pediatrician examines all the diseases related to children",
+        title: "Diabetes",
+        desc: "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high",
         doc_img: doc,
         type: "Child Disease",
         docName: "Dr S S NABIYAL",
@@ -55,8 +55,8 @@ const Councilling = [
 
     {
         logo: pic4,
-        title: "ORTHOPADIC",
-        desc: "Orthopedics is a branch of medicine that focuses on the care of the skeletal system and its interconnecting parts.",
+        title: "Cancer",
+        desc: "Cancer isin which some of the body’s cells grow uncontrollably and spread to other parts of the body",
         doc_img: doc,
         type: "RTHOPADIC",
         docName: "Dr DEEPAK CHANKANYAL",
@@ -81,8 +81,8 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
 
     {
          logo: pic5,
-            title: "EYE SURGERY",
-            desc: "Eye doctor deals with the diseases related to eyes.",
+            title: "stroke ",
+            desc: "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue ",
             doc_img: doc,
             type: "EYE TREATMENTS",
             docName: "K S BRIJWAL",
@@ -100,8 +100,8 @@ For more information click on this : https://www.medicalnewstoday.com/articles/w
 },
     {
         logo: pic6,
-        title: "ENT",
-        desc: "An ear, nose, and throat doctor (ENT) specializes in everything having to do with those parts of the body.",
+        title: "mental Mental illness",
+        desc: "mental Mental illness, also called mental health disorders, refers to a wide range of mental health",
         doc_img: doc,
         type: "ENT",
         docName: "Dr Kavita Lohani",

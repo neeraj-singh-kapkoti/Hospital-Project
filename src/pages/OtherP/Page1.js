@@ -8,7 +8,7 @@ function Page1() {
     <div className="container">
       <Navbar />
 
-      <div className="ward">
+      <div className="ward other-top">
         <h4>PRIVATE WARD</h4>
         <h3>
           <b>PRIVATE WARD:</b>

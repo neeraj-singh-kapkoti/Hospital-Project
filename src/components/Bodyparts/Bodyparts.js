@@ -9,7 +9,7 @@ function Bodyparts() {
 
       <div className="container">
       <div className="body">
-    <h1 className="heading">Uncertainity About Body Parts ??</h1>
+    <h1 className="heading"> Are You Uncertain About Body Parts ??</h1>
     <div className="structure male">
       <img src={body} />
       <ul className="body_list left">
@@ -458,7 +458,10 @@ function Bodyparts() {
         </li>
       </ul>
     </div>
-    </div></div>
+    <h5 style={{color: "white"}} > To Know More Click on that name...</h5>
+
+    </div>
+    </div>
   );
 }
 

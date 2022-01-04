@@ -14,7 +14,7 @@ const serviceData = [
     {
         logo: backG,
         title: "GENERAL SURGERY",
-        desc: "General surgery is a surgical specialty that focuses on abdominal appendix and bile ducts, and often the thyroid gland.",
+        desc: "General surgery is a surgical specialty that focuses on abdominal appendix and bile ducts, and often..",
         doc_img: doc,
         docName: "s s bora",
         docEduc: "MBBS",
@@ -43,7 +43,7 @@ const serviceData = [
 
         logo: pic1,
         title: "Child Disease",
-        desc: "A pediatrician examines all the diseases related to children A pediatrician examines all the diseases related to children",
+        desc: "A pediatrician examines all the diseases related to children A pediatrician examines all the diseases related",
         doc_img: doc,
         type: "Child Disease",
         docName: "Dr S S NABIYAL",
@@ -267,7 +267,7 @@ For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-d
  {
         logo: pic8,
         title: "PHYSICIAN",
-        desc: "Physicians work to maintain, promote, and restore health by studying, diagnosing, and treating injuries and diseases..",
+        desc: "Physicians work to maintain, promote, and restore health by studying, diagnosing",
         doc_img: doc,
         type: "PHYSICIAN",
         docName: "Dr D S DHRAMKSHTU",
@@ -298,7 +298,7 @@ For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-d
     {
         logo: pic9,
         title: "RADIOLOGY",
-        desc: "Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease.Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease..",
+        desc: "Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease..",
         doc_img: doc,
         type: "RADIOLOGIST",
         docName: "Dr N S GUNJYAL",
@@ -330,7 +330,7 @@ For more information click here: https://www.webmd.com/a-to-z-guides/what-is-a-d
     {
         logo: pic3,
         title: "SKIN TREATMENT",
-        desc: "A dermatologist is a doctor who specializes in conditions involving the skin, hair, and nails. A dermatologist can identify and treat more than 3,000 conditions.",
+        desc: "A dermatologist is a doctor who specializes in conditions involving the skin, hair, and nails. A dermatologist .",
         doc_img: doc,
         type: "DERMATOLOGIST",
         docName: "Dr SUNIL",

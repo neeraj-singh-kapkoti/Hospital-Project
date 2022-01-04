@@ -34,12 +34,12 @@ img {
 }
 .body_list {
   position: absolute;
-  left: 0;
+  left: -7px;
   top: 0;
 }
 .body_list.right {
   left: auto;
-  right: 0;
+  right: 30px;
 }
 .body_list > li {
   position: absolute;

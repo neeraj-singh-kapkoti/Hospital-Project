@@ -12,7 +12,7 @@ import Scroll from "../../components/Scroll/Scroll"
 
 function About() {
   return (
-    <div className="container" style={{marginTop:"6rem"}}>
+    <div className="container" style={{marginTop:"9rem"}}>
       <Scroll showBelow={250} />
       <Navbar />
 

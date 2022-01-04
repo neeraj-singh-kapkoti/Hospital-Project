@@ -1,32 +1,32 @@
 import React from "react";
-import "./Lists.css";
-import pic3 from "../../image/treatment/Dental-Care.jpg"
-import pic4 from "../../image/vaccine.jpg"
-import pic5 from "../../image/ward.jpg"
+import "../../pages/OtherP/Lists.css";
+import pic3 from "../../image/govt/WhatsApp Image 2022-01-04 at 2.33.50 PM (1).jpeg"
+import pic4 from "../../image/govt/WhatsApp Image 2022-01-04 at 2.33.50 PM.jpeg"
+import pic5 from "../../image/govt/WhatsApp Image 2022-01-04 at 2.33.51 PM.jpeg"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
-function Lists() {
+function Schemes() {
 
     const data = [
         {
             logo: pic5,
             link: "Test",
-            title: "WARD",
-            desc: "The hospital has 16 bedded, special wards Patients can either take full room or single sharing bed according to their convenience."
+            title: "Employment State Insurance Scheme",
+            desc: "The Pradhan Mantri Surakshit Matritva Abhiyan has been launched by the Ministry of Health & Family Welfare (MoHFW)"
         },
         {
           logo: pic3,
           link: "Test2",
-          title: "Other facility",
-          desc: "Medicines prescribed by CGHS doctors/specialists, which are available in Wellness Center are supplied immediately."
+          title: "Ayushman Bharat Yojana",
+          desc: "The Pradhan Mantri Surakshit Matritva Abhiyan has been launched by the Ministry of Health & Family Welfare (MoHFW)"
       },
         {
             logo: pic4,
             link: "Test2",
-            title: "vaccine available",
-            desc: "1. BCG (Bacillus Calmette Guerin) 2. DPT (Diphtheria, Pertussis and Tetanus Toxoid) 3. OPV (Oral Polio Vaccine)"
+            title: "Pradhan Mantri Suraksha Bima Yojana",
+            desc: "The Pradhan Mantri Surakshit Matritva Abhiyan has been launched by the Ministry of Health & Family Welfare (MoHFW)"
         }
     ]    
 
@@ -34,7 +34,7 @@ function Lists() {
     <div>
       <Navbar />
       <section className="packages container" id="packages">
-        <h1 className="heading headingPage">Other Services</h1>
+        <h1 className="heading headingPage">Govt. Schemes for Health</h1>
 
         <div className="box-container">
           {data.map((product) => {
@@ -63,4 +63,4 @@ function Lists() {
   );
 }
 
-export default Lists;
+export default Schemes;

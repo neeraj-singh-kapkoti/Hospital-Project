@@ -4,9 +4,8 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
-
+import ScrollToTop from './components/ScrollToTop';
 
 import HomeP from './pages/HomeP';
 import ServiceList from './pages/ServiceP/ServicesList';
@@ -21,10 +20,13 @@ import Councilling from './pages/CouncillingP/CouncillingList';
 import CouncillingP from './pages/CouncillingP/CouncillingP';
 import DoctorL from './pages/Doctors/DoctorL';
 import About from './pages/About/About';
+import Schemes from './pages/Schemes/Schemes';
+import Ask from './pages/Ask/Ask';
 
 function App() {
   return (
     <BrowserRouter>
+          <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomeP/>} />
       </Routes>
@@ -63,6 +65,12 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/about" element={<About/>} />
+      </Routes>
+      <Routes>
+        <Route path="/govt" element={<Schemes/>} />
+      </Routes>
+      <Routes>
+        <Route path="/Ask" element={<Ask/>} />
       </Routes>
   </BrowserRouter>
   );

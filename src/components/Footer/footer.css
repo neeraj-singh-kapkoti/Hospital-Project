@@ -9,6 +9,7 @@ footer {
   .foot-box{
     display: flex;
     flex-wrap: wrap;
+    border-top: 3px solid var(--green);
   }
 
   .size-foot{

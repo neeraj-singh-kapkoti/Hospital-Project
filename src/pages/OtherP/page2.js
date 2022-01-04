@@ -8,6 +8,7 @@ function Page2() {
   return (
     <div className="container facilities">
       <Navbar />
+      <div className="other-top">
       <h2>Regestration fee in hospital</h2>
     
     <img src={img} alt="parchi" className="hp" />
@@ -77,6 +78,7 @@ function Page2() {
       anybody can use it if they had problem from the hospital staff and other suggestion for hospital.</p>
      
       <Footer />
+      </div>
     </div>
   );
 }

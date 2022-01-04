@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosArrowDroprightCircle} from "react-icons/io";
 import "./footer.css"
+import {Link} from "react-router-dom"
 
 function Footer() {
   return (
@@ -53,23 +54,23 @@ function Footer() {
                 <ul>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">General Sergery</a>
+                    <a ><Link to="/">General Sergery</Link></a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">General Sergery</a>
+                    <a ><Link to="/">General Sergery</Link></a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">General Sergery</a>
+                    <a ><Link to="/">General Sergery</Link></a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">General Sergery</a>
+                    <a ><Link to="/">General Sergery</Link></a>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="#">General Sergery</a>
+                    <a ><Link to="/">General Sergery</Link></a>
                   </li>
                 </ul>
               </div>
