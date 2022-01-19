@@ -11,7 +11,7 @@ function Bodyparts() {
       <div className="body">
     <h1 className="heading"> Are You Uncertain About Body Parts ??</h1>
     <div className="structure male">
-      <img src={body} />
+      <img src={body} alt="body"/>
       <ul className="body_list left">
         
         <li className="eyeMpointer">

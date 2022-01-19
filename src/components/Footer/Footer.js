@@ -28,23 +28,23 @@ function Footer() {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <IoIosArrowDroprightCircle className="ico"/> <a href="/">Home</a>
+                    <IoIosArrowDroprightCircle className="ico"/> <Link to="/">Home</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="/service">Treatment & services</a>
+                    <Link to="/service">Treatment & services</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="/others"> Others</a>
+                    <Link to="/others"> Others</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="/DoctorList">Doctors</a>
+                    <Link to="/DoctorList">Doctors</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a href="/test">Types of test</a>
+                    <Link to="/test">Types of test</Link>
                   </li>
                 </ul>
               </div>
@@ -54,23 +54,23 @@ function Footer() {
                 <ul>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a ><Link to="/">General Sergery</Link></a>
+                    <Link to="/">General Sergery</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a ><Link to="/">General Sergery</Link></a>
+                    <Link to="/">General Sergery</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a ><Link to="/">General Sergery</Link></a>
+                    <Link to="/">General Sergery</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a ><Link to="/">General Sergery</Link></a>
+                    <Link to="/">General Sergery</Link>
                   </li>
                   <li>
                     <IoIosArrowDroprightCircle className="ico"/>{" "}
-                    <a ><Link to="/">General Sergery</Link></a>
+                    <Link to="/">General Sergery</Link>
                   </li>
                 </ul>
               </div>
@@ -88,9 +88,9 @@ function Footer() {
           </div>
           <div className="credits">
             Designed by{" "}
-            <a href="">
-              SIT Student
-            </a>
+            <Link to="">
+              Gaurav Singh
+            </Link>
           </div>
         </div>
       </footer>

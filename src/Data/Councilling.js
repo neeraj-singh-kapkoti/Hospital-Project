@@ -1,12 +1,9 @@
-import backG from "../image/general-surgery.jpg"
-import pic from "../image/doc.jpg"
 import doc from "../image/drNew.png"
 import pic1 from "../image/treatment/Bmt.jpg"
 import pic3 from "../image/treatment/Dental-Care.jpg"
 import pic4 from "../image/treatment/Ent.jpg"
 import pic5 from "../image/treatment/eye.jpg"
 import pic6 from "../image/treatment/Header_Pediatric-Surgery.jpg"
-import pic7 from "../image/treatment/orthopadic.jpg"
 
 
 const Councilling = [
