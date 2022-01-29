@@ -46,8 +46,8 @@ function Navbar(props) {
 
       <header id="header" className={`fixed-top ${scroll ? "header-scrolled" : ""}`}>
         <Link to="/" className="logo">
-            <img src={logo} />
-         </Link>
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+        </Link>
 
         <nav className={click ? "navbar active" : "navbar"}>
        <Link className={ActiveClr("/")} to="/" onClick={handleClick}>
