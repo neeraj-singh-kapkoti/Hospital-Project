@@ -9,3 +9,5 @@ Node.js is perfect for data-intensive applications as it uses an asynchronous, e
 ![Screenshot 2024-03-23 123737](https://github.com/Gaurav038/interview-notes/assets/78479119/fdc01583-6487-48b5-8ba9-5b2aa138b0b4)
 
 ![Screenshot 2024-03-23 124313](https://github.com/Gaurav038/interview-notes/assets/78479119/65410952-b513-4dae-b6c1-5bbbcd3c842b)
+
+![Screenshot 2024-03-23 124620](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/a8d73ba8-cbd8-4cac-ba43-d2045eaf3607)
