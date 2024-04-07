@@ -6,4 +6,6 @@
 ## not-found.js :  Next.js displays a default "Not Found" page. This page informs the user that the requested page could not be found. 
 ![Screenshot 2024-04-06 172827](https://github.com/Gaurav038/interview-notes/assets/78479119/cf5bc587-e7d3-4bdc-a767-cfc365685148)
 ![Screenshot 2024-04-06 173208](https://github.com/Gaurav038/interview-notes/assets/78479119/edb893be-e5e4-4c8b-864d-01fe3bed6d4c)
+![Screenshot 2024-04-06 173208](https://github.com/Gaurav038/interview-notes/assets/78479119/30457f9d-3265-4fa1-a661-5b2973f01531)
+![Screenshot 2024-04-07 120040](https://github.com/Gaurav038/interview-notes/assets/78479119/bcb1159b-0008-488d-bc06-8f241e123d35)
 
