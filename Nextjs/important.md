@@ -19,21 +19,21 @@ Title Tag:
 The title tag is an HTML element that specifies the title of a web page. It appears as the clickable headline in search engine results.
 Title tags should be descriptive, concise, and relevant to the content of the page.
 Including relevant keywords in the title tag can help improve the page's visibility in search results.
-Meta Description:
 
 meta description:
 The meta description is a brief summary of the content of a web page. It appears below the title tag in search engine results.
 Meta descriptions should accurately describe the page's content and entice users to click through to the page.
 While meta descriptions don't directly impact search engine rankings, they can influence click-through rates (CTR), which indirectly affects SEO.
-Meta Keywords (Deprecated):
 
 Meta keywords:
 Meta keywords are a list of keywords or phrases that describe the content of a web page.
 However, meta keywords are no longer used by most search engines as a ranking factor due to their susceptibility to keyword stuffing and manipulation.
-Meta Robots:
 
 meta robots:
 The meta robots tag provides instructions to search engine crawlers on how to index and follow links on a web page.
 Common directives include "index" (allow indexing), "nofollow" (prevent following links), "noindex" (prevent indexing), and "nofollow, noindex" (prevent both indexing and following links).
+
+# Search engine crawlers
+Search engine crawlers, also known as web crawlers, spiders, or bots, are automated programs used by search engines to discover and index web pages on the internet. These crawlers play a crucial role in how search engines gather information about websites and determine their relevance and ranking in search results
 
 ![Screenshot 2024-04-07 150819](https://github.com/Gaurav038/interview-notes/assets/78479119/c9dbfd68-3fe8-4e50-b866-541c8a5af0e3)
