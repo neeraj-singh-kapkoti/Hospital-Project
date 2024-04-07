@@ -50,7 +50,7 @@ import Link from 'next/link';
 </Link>
 ```
 
-## NEXTJS HOOCKS
+## NEXTJS HOOKS
 
 1. useRouter
 In Next.js, the useRouter hook from the next/router module allows you to access the router object and perform client-side navigation, access query parameters, and handle route events within your React components. Here's how you can use the useRouter hook in Next.js:
