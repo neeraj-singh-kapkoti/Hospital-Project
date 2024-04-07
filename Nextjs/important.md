@@ -37,3 +37,15 @@ Common directives include "index" (allow indexing), "nofollow" (prevent followin
 Search engine crawlers, also known as web crawlers, spiders, or bots, are automated programs used by search engines to discover and index web pages on the internet. These crawlers play a crucial role in how search engines gather information about websites and determine their relevance and ranking in search results
 
 ![Screenshot 2024-04-07 150819](https://github.com/Gaurav038/interview-notes/assets/78479119/c9dbfd68-3fe8-4e50-b866-541c8a5af0e3)
+
+## Link component
+In Next.js, the Link component is a powerful tool for client-side navigation between pages within your application. It provides a declarative way to create links and handles client-side routing without causing a full page refresh. Here's how you can use the Link component in Next.js:
+
+Import the Link Component:
+First, import the Link component from the next/link module at the top of your file:
+```javascript
+import Link from 'next/link';
+<Link href="/about">
+  <a>About</a>
+</Link>
+```
