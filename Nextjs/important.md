@@ -73,4 +73,11 @@ const MyComponent = () => {
 
 ![Screenshot 2024-04-08 094655](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/dda54d7c-b2ae-4254-b453-a81cc4483e6f)
 
+![Screenshot 2024-04-08 100136](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/c7449597-b7e4-4758-9447-791540890400)
+
+
+![Screenshot 2024-04-08 105944](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/7a7291c0-b2b8-4148-af34-9d98b5baac71)
+![Screenshot 2024-04-08 105950](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/aebfba4f-2916-4b89-abe9-3855374f992b)
+
+![Screenshot 2024-04-08 110033](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/a93c0a35-220c-4d50-a959-39425c81ef78)
 
