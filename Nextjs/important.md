@@ -71,3 +71,6 @@ const MyComponent = () => {
 
 ![Screenshot 2024-04-08 092154](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/fb8ba75f-4227-4351-b7c6-2a97d059cc96)
 
+![Screenshot 2024-04-08 094655](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/dda54d7c-b2ae-4254-b453-a81cc4483e6f)
+
+
