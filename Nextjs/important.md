@@ -10,6 +10,7 @@
 ![Screenshot 2024-04-07 120040](https://github.com/Gaurav038/interview-notes/assets/78479119/bcb1159b-0008-488d-bc06-8f241e123d35)
 ![Screenshot 2024-04-07 124601](https://github.com/Gaurav038/interview-notes/assets/78479119/6f35423b-5c67-4ba7-8a31-285c52d18c15)
 
+
 # Search Engine Optimization (SEO)
 
 Search Engine Optimization (SEO) is the practice of optimizing your website to improve its visibility and ranking in search engine results pages (SERPs). Metadata plays a crucial role in SEO as it provides search engines with information about your web pages, helping them understand the content and context of your site. Let's break down the key aspects of metadata and its importance for SEO:
@@ -86,4 +87,7 @@ const MyComponent = () => {
 ![Screenshot 2024-04-08 111449](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/adc1e2d1-875e-45f0-8ce9-3248a21fd90b)
 ![Screenshot 2024-04-08 111502](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/daa7c8ad-d266-4512-a30d-f51a74e43816)
 ![Screenshot 2024-04-08 111513](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/2d01ec51-a47b-4d27-9c24-4659320475d0)
+![Screenshot 2024-04-08 123047](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/214ca148-a977-445c-960a-42db2aeb1128)
+![Screenshot 2024-04-08 141803](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/9e6ab4ca-75f4-4264-8275-aaee1b8e9ab7)
+![Screenshot 2024-04-08 141809](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/7d978227-d6d8-4917-8704-00f6d937acaa)
 
