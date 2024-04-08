@@ -90,4 +90,7 @@ const MyComponent = () => {
 ![Screenshot 2024-04-08 123047](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/214ca148-a977-445c-960a-42db2aeb1128)
 ![Screenshot 2024-04-08 141803](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/9e6ab4ca-75f4-4264-8275-aaee1b8e9ab7)
 ![Screenshot 2024-04-08 141809](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/7d978227-d6d8-4917-8704-00f6d937acaa)
-
+![Screenshot 2024-04-08 145434](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/756a8009-dd96-4f51-872f-584f51a95221)
+![Screenshot 2024-04-08 145550](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/4c5692b5-f1a3-4018-aaeb-4613261d00f8)
+![Screenshot 2024-04-08 145640](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/d6c433a6-4b92-415f-bc3d-e4759c6c975f)
+![Screenshot 2024-04-08 150342](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/9f191a5a-d29f-4999-9a71-11a714d0c8c3)
