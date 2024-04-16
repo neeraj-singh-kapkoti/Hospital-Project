@@ -49,7 +49,7 @@ While HTTP itself is stateless, web applications often require state management 
 
 HTTP is inherently insecure, but HTTPS encrypts data using SSL/TLS protocols to provide secure communication between clients and servers.
 
-```
+```javascript
 const http = require("http")
 
 const server = http.createServer((request, response) => {
