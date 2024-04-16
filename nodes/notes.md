@@ -106,7 +106,6 @@ To use Express.js in your Node.js project, follow these steps:
 2. Require Express in your Node.js application:
 
 ```bash
-Copy code
 const express = require('express');
 ```
 3. Create an Express application:
