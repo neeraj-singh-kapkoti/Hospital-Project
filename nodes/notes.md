@@ -48,3 +48,36 @@ While HTTP itself is stateless, web applications often require state management 
 ### Security
 
 HTTP is inherently insecure, but HTTPS encrypts data using SSL/TLS protocols to provide secure communication between clients and servers.
+
+```
+const http = require("http")
+
+const server = http.createServer((request, response) => {
+    const { method, url, headers } = request
+    if (url === "/cats") {
+        response.statusCode = 200
+        response.setHeader("Content-Type", "application/json")
+        const responseBody = {
+            headers,
+            method,
+            url,
+            body: ["Mrs. Meowsers", "Hairball", "Jerk"]
+        }
+
+        response.write(JSON.stringify(responseBody))
+        response.end()
+    }
+    else {
+        response.setHeader("Content-Type", "text/html")
+        response.statusCode = 200
+        response.end("<html><body><h1>Hello, World!</h1></body></html>")
+    }
+})
+
+
+const PORT = 8000
+
+server.listen(PORT, () => {
+    console.log("server is running");
+})
+```
