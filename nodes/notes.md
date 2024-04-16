@@ -81,3 +81,10 @@ server.listen(PORT, () => {
     console.log("server is running");
 })
 ```
+
+### Common request headers include:
+- Accept: Specifies the media types that the client can understand.
+- User-Agent: Identifies the client software making the request (e.g., browser name and version).
+- Authorization: Contains credentials for authenticating the client with the server (e.g., API tokens, Basic Auth credentials).
+- Content-Type: Specifies the MIME type of the request body (e.g., application/json, text/plain).
+- Cookie: Contains cookies previously set by the server and sent back to the server with subsequent requests.
