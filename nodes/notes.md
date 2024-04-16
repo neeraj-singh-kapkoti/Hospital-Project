@@ -1,4 +1,4 @@
-# HTTP Important Notes
+# 1 HTTP Important Notes
 
 HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. Below are some important notes about HTTP:
 
