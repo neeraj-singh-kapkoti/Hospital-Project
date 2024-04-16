@@ -90,3 +90,73 @@ server.listen(PORT, () => {
 - Cookie: Contains cookies previously set by the server and sent back to the server with subsequent requests.
 
 ![Screenshot 2024-04-16 160748](https://github.com/Gaurav038/interview-notes/assets/78479119/a903700e-4753-44ae-a59f-98cd02fa17e7)
+
+# 2.Express.js Details
+
+Express.js is a web application framework for Node.js, designed for building web applications and APIs. It provides a robust set of features for building and managing web servers, handling routes, middleware, and more.
+
+## Getting Started
+
+To use Express.js in your Node.js project, follow these steps:
+
+1. Install Express.js as a dependency in your project:
+   ```bash
+   npm install express
+
+2. Require Express in your Node.js application:
+
+```bash
+Copy code
+const express = require('express');
+```
+3. Create an Express application:
+
+```bash
+const app = express();
+```
+4. Define routes and middleware to handle incoming requests:
+   
+```bash
+app.get('/', (req, res) => {
+  res.send('Hello, Express!');
+});
+```
+5. Start the Express server:
+
+```bash
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+```
+## Features
+Routing
+Express provides a simple and flexible routing mechanism to handle different HTTP requests and URLs.
+
+```bash
+app.get('/users', (req, res) => {
+  // Handle GET request to /users
+});
+
+
+app.post('/users', (req, res) => {
+  // Handle POST request to /users
+});
+```
+Middleware
+Middleware functions are functions that have access to the request, response, and the next middleware function in the application's request-response cycle.
+
+```bash
+app.use(express.json()); // Parse JSON bodies
+app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
+app.use(loggerMiddleware); // Custom middleware
+```
+Error Handling
+Express allows you to define error-handling middleware functions to handle errors that occur during request processing.
+
+```bash
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(500).send('Internal Server Error');
+});
+```
