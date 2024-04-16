@@ -88,3 +88,5 @@ server.listen(PORT, () => {
 - Authorization: Contains credentials for authenticating the client with the server (e.g., API tokens, Basic Auth credentials).
 - Content-Type: Specifies the MIME type of the request body (e.g., application/json, text/plain).
 - Cookie: Contains cookies previously set by the server and sent back to the server with subsequent requests.
+
+![Screenshot 2024-04-16 160748](https://github.com/Gaurav038/interview-notes/assets/78479119/a903700e-4753-44ae-a59f-98cd02fa17e7)
