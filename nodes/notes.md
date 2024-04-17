@@ -166,6 +166,10 @@ app.use((err, req, res, next) => {
 
 Middleware in Express.js are functions that have access to the request and response objects in an HTTP application's request-response cycle. They can perform tasks such as executing code, modifying request and response objects, and terminating the request-response cycle.
 
+- Executing any code.
+- Making changes to the request and response objects.
+- Ending the request-response cycle.
+- Calling the next middleware function in the stack.
 ## Middleware Functions
 
 - express.static
