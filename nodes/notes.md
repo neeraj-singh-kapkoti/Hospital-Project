@@ -1,8 +1,8 @@
 # 1 HTTP in details
 
-HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. Below are some important notes about HTTP:
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers
-
+Below are some important notes about HTTP:
 ## Overview
 
 HTTP follows a client-server model where clients, such as web browsers, make requests to servers, and servers respond with the requested resources, such as web pages or files.
