@@ -159,3 +159,49 @@ app.use((err, req, res, next) => {
   res.status(500).send('Internal Server Error');
 });
 ```
+
+# Express Middleware
+
+Middleware in Express.js are functions that have access to the request and response objects in an HTTP application's request-response cycle. They can perform tasks such as executing code, modifying request and response objects, and terminating the request-response cycle.
+
+## Middleware Functions
+
+- express.static
+
+`express.static` is used to serve static files, such as HTML, CSS, and JavaScript files, from a specified directory. It is commonly used for serving images, CSS, and JavaScript files in a web application.
+
+```javascript
+app.use(express.static('public'));
+```
+- express.json
+express.json parses incoming JSON payloads and makes the parsed data available on the req.body property of the request object. It is used to handle JSON request bodies.
+
+```javascript
+app.use(express.json());
+```
+- express.urlencoded
+express.urlencoded parses incoming URL-encoded payloads and makes the parsed data available on the req.body property of the request object. It is used to handle form submissions.
+
+```javascript
+app.use(express.urlencoded({ extended: true }));
+```
+- Custom Middleware
+Developers can create custom middleware functions to perform specific tasks or implement application-specific logic. Custom middleware functions typically have the signature (req, res, next).
+
+```javascript
+function loggerMiddleware(req, res, next) {
+  console.log('Request received:', req.method, req.url);
+  next();
+}
+app.use(loggerMiddleware);
+```
+- Error Handling Middleware
+Error handling middleware functions have a different signature with four parameters (err, req, res, next). They are used to handle errors that occur during the request-response cycle.
+
+```javascript
+function errorHandler(err, req, res, next) {
+  console.error('Error:', err);
+  res.status(500).send('Internal Server Error');
+}
+app.use(errorHandler);
+```
