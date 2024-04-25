@@ -307,3 +307,218 @@ fs.unlink('path/to/file.txt', (err) => {
     }
 });
 ```
+## express.static and express-fileupload
+
+- express.static:
+Purpose: express.static is a built-in middleware in Express.js that serves static files (such as images, CSS, JavaScript files, and other assets) directly from a specified directory.
+
+Usage: The middleware takes the path to the directory where the static files are located as an argument and serves any files that match the requested URL.
+
+```javascript
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.listen(3000, () => {
+    console.log('Server running on port 3000');
+});
+```
+In this example, the express.static middleware serves static files from the public directory. Any files in that directory (or its subdirectories) that match the requested URL will be served directly to the client.
+
+
+- express-fileupload 
+
+Purpose: express-fileupload is a third-party middleware in Express.js that enables file uploads. It simplifies handling file uploads from clients, including parsing form data and saving uploaded files.
+
+Installation: You can install express-fileupload using npm:
+Usage: You must configure the middleware in your Express app, and then you can handle file uploads in your routes.
+Example:
+```javascript
+
+const express = require('express');
+const fileUpload = require('express-fileupload');
+
+const app = express();
+
+// Enable file upload
+app.use(fileUpload());
+
+// Route to handle file uploads
+app.post('/upload', (req, res) => {
+    if (!req.files || Object.keys(req.files).length === 0) {
+        return res.status(400).send('No files were uploaded.');
+    }
+
+    // Access the uploaded file
+    const uploadedFile = req.files.myFile;
+
+    // Save the file to a specific path
+    const savePath = __dirname + '/uploads/' + uploadedFile.name;
+    uploadedFile.mv(savePath, (err) => {
+        if (err) {
+            return res.status(500).send(err);
+        }
+        res.send('File uploaded successfully!');
+    });
+});
+
+app.listen(3000, () => {
+    console.log('Server running on port 3000');
+});
+```
+In this example, express-fileupload is enabled using app.use(fileUpload()). In the /upload route, the uploaded file is accessed via req.files.myFile and saved to a specified directory using the mv method.
+
+## Hashing passwords
+it is a crucial part of building secure applications that handle user authentication. In Node.js, you can use the bcrypt library to hash passwords. Bcrypt is a popular library that provides a secure way to hash passwords and also supports salting, which helps to make the hashed passwords more secure against attacks like rainbow table and dictionary attacks.
+
+Here's how you can hash passwords with bcrypt in Node.js:
+
+Install the bcrypt library: First, you need to install the bcrypt library using npm:
+```bash
+npm install bcrypt
+```
+Import the bcrypt library: Once the library is installed, you can import it in your Node.js code:
+```bash
+const bcrypt = require('bcrypt');
+```
+Set the salt rounds: Bcrypt uses a salt to add an additional layer of security to the hashed password. The salt rounds determine the cost factor and the time it takes to hash the password. Typically, 10 to 12 rounds is considered secure:
+```bash
+const saltRounds = 10; // You can adjust this value based on your security requirements
+Hash the password: You can use the bcrypt.hash() function to hash a plain text password. This function takes three parameters: the plain text password, the salt rounds, and a callback function that handles the hashed password:
+
+const plainTextPassword = 'your_password_here';
+
+bcrypt.hash(plainTextPassword, saltRounds, (err, hashedPassword) => {
+    if (err) {
+        console.error('Error hashing password:', err);
+    } else {
+        console.log('Hashed password:', hashedPassword);
+    }
+});
+```
+The hash function will asynchronously hash the plain text password and pass the hashed password to the callback function.
+Verify the hashed password: When a user tries to log in, you need to verify their plain text password against the stored hashed password. You can use the bcrypt.compare() function for this purpose:
+```bash
+const hashedPassword = 'stored_hashed_password_here';
+
+bcrypt.compare(plainTextPassword, hashedPassword, (err, result) => {
+    if (err) {
+        console.error('Error comparing passwords:', err);
+    } else if (result) {
+        console.log('Password match!');
+    } else {
+        console.log('Password does not match.');
+    }
+});
+```
+The compare function takes the plain text password and the hashed password as arguments and returns a boolean result indicating whether the passwords match.
+
+
+## JWT with cookie
+
+Using JWT with cookies in a Node.js application can help manage user authentication and sessions securely. Cookies are used to store the JWT on the client-side, and they are included automatically in HTTP requests, which can simplify the process of managing user sessions.
+
+Here’s how you can use JWT with cookies in a Node.js application:
+
+Install necessary packages: You will need jsonwebtoken for creating and verifying JWTs and cookie-parser to handle cookies in your application.
+```bash
+npm install jsonwebtoken cookie-parser
+```
+Set up Express and middleware: Import and set up Express and the necessary middleware (cookie-parser) for your application.
+```bash
+const express = require('express');
+const jwt = require('jsonwebtoken');
+const cookieParser = require('cookie-parser');
+
+const app = express();
+app.use(cookieParser());
+```
+Generate a JWT: When a user logs in, you should generate a JWT and set it in a cookie. Be sure to set the cookie with the httpOnly flag to make it inaccessible from client-side JavaScript. This improves security by preventing client-side scripts from accessing the cookie.
+```bash
+const secretKey = 'your_secret_key';
+
+app.post('/login', (req, res) => {
+    const payload = {
+        userId: req.body.userId,
+        username: req.body.username,
+    };
+
+    const options = {
+        expiresIn: '1h', // Set the token expiration time
+    };
+
+    // Create a JWT
+    const token = jwt.sign(payload, secretKey, options);
+
+    // Set the JWT in a cookie
+    res.cookie('token', token, {
+        httpOnly: true, 
+        secure: process.env.NODE_ENV === 'production', // Use secure cookies in production
+        sameSite: 'strict', // Prevent cross-site requests
+    });
+
+    res.send('Login successful');
+});
+```
+## httpOnly: true
+
+- Purpose: When the httpOnly attribute is set to true on a cookie, it means that the cookie can only be accessed by the server and not by client-side scripts such as JavaScript.
+- Security: This attribute is used to enhance security by preventing client-side scripts (such as JavaScript) from accessing the cookie's value. This can help mitigate certain types of attacks such as cross-site scripting (XSS).
+- Usage: Cookies with the httpOnly attribute set are still sent with HTTP requests, such as when the browser makes a request to the server, but they cannot be manipulated or read by JavaScript running in the user's browser.
+
+## sameSite: 'strict':
+
+- Purpose: The sameSite attribute is used to control whether a cookie should be sent along with cross-site requests. When set to 'strict', the cookie is only sent with requests to the same site (i.e., same origin) as the cookie itself.
+- Security: This attribute helps enhance security by preventing the cookie from being sent in cross-site requests, which can help mitigate cross-site request forgery (CSRF) attacks. It ensures that the cookie is only sent when the user navigates within the same site.
+- Usage: When sameSite is set to 'strict', the cookie will not be sent with requests initiated by third-party websites. This means the cookie is not sent with requests from different origins, ensuring that the cookie is used only in the context of the site where it was set.
+
+Verify the JWT: When a user makes an authenticated request, verify the JWT from the cookie before allowing them access to protected routes.
+```bash
+app.get('/protected', (req, res) => {
+    const token = req.cookies.token;
+
+    if (!token) {
+        return res.status(401).send('Access denied');
+    }
+
+    jwt.verify(token, secretKey, (err, decoded) => {
+        if (err) {
+            return res.status(401).send('Invalid token');
+        }
+
+        // Token is valid; proceed with your logic
+        res.send('Welcome to the protected route');
+    });
+});
+```
+Handling token expiration: JWTs have an expiration time set when they're created. When the token expires, you may need to handle the situation by asking the user to log in again and issuing a new token.
+Logout: To allow users to log out, you can clear the JWT cookie:
+```javascript
+app.post('/logout', (req, res) => {
+    res.clearCookie('token');
+    res.send('Logged out successfully');
+});
+```
+
+## SMTP and HTTP
+
+### SMTP (Simple Mail Transfer Protocol):
+
+- Purpose: SMTP is a protocol used for sending and transmitting emails over the internet. It is primarily responsible for the delivery of emails from the sender's email client to the recipient's email server.
+- How It Works: When you send an email, your email client uses SMTP to send the email to the recipient's mail server. The recipient's mail server then delivers the email to the recipient's inbox. SMTP works at the application layer and follows a set of rules for sending and receiving emails.
+- Communication: SMTP typically uses port 25 for unencrypted communication and port 587 for encrypted communication.
+
+### HTTP (Hypertext Transfer Protocol):
+
+- Purpose: HTTP is a protocol used for transmitting hypertext, such as web pages and other resources, over the internet. It is the foundation of data communication for the World Wide Web.
+- How It Works: HTTP is a request-response protocol. When you visit a website, your web browser sends an HTTP request to the web server hosting the website. The server responds with the requested data, which the browser then interprets and displays as a web page.
+- Communication: HTTP typically uses port 80 for unencrypted communication and port 443 for encrypted communication 
+
+### MIME (Multipurpose Internet Mail Extensions):
+
+- Purpose: MIME is a standard that specifies how emails and their attachments are formatted. It extends the format of emails to support different types of data, such as text in different character sets, images, audio, video, and other file types.
+- Function: MIME is used to encode and decode email messages and attachments. It allows emails to include various media types and attachments while maintaining the integrity and readability of the email content across different email clients and servers.
