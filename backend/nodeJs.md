@@ -211,3 +211,103 @@ function errorHandler(err, req, res, next) {
 }
 app.use(errorHandler);
 ```
+## query and params
+
+- req.query:
+req.query is used to access the query parameters that are sent in the URL. These parameters are typically appended to the end of the URL after a question mark ? and are in the form of key-value pairs separated by ampersands &. For example, in the URL http://example.com/api/users?id=123&name=john, id and name are query parameters.
+You can access the query parameters using req.query. It will return an object containing all the query parameters parsed from the URL.
+Example:
+```javascript
+
+// URL: http://example.com/api/users?id=123&name=john
+console.log(req.query.id);   // Output: 123
+console.log(req.query.name); // Output: john
+```
+- req.params:
+req.params is used to access route parameters specified in the route pattern. Route parameters are parts of the URL that match a specific pattern defined in the route. They are typically used to capture dynamic parts of the URL.
+You define route parameters in Express.js routes using a colon : followed by the parameter name. For example, in the route pattern /api/users/:id, id is a route parameter.
+You can access route parameters using req.params. It will return an object containing all the route parameters parsed from the URL.
+Example:
+```javascript
+// Route: /api/users/:id
+// URL: http://example.com/api/users/123
+console.log(req.params.id); // Output: 123
+```
+
+## File handling
+File handling in Node.js is accomplished using the built-in fs (file system) module, which provides an API for interacting with the file system. This includes reading, writing, and manipulating files and directories. Here's a detailed overview of file handling in Node.js:
+
+Importing the fs Module:
+First, you need to import the fs module to work with the file system:
+
+```javascript
+const fs = require('fs');
+```
+
+### Asynchronous vs. Synchronous File Operations:
+#### Asynchronous: Asynchronous file operations in Node.js use callbacks or promises to handle completion. These methods are non-blocking and the recommended approach for file handling to maintain application performance.
+
+#### Synchronous: Synchronous file operations block the execution until the operation completes. These methods are simpler to use but may negatively impact application performance, especially for large files or frequent file operations.
+
+Common File Handling Methods:
+Here are some common file handling methods provided by the fs module:
+
+- Reading Files:
+```javascript
+fs.readFile(path, [options], callback): Reads the entire content of a file asynchronously.
+fs.readFile('path/to/file.txt', 'utf-8', (err, data) => {
+    if (err) {
+        console.error('Error reading file:', err);
+    } else {
+        console.log('File contents:', data);
+    }
+});
+fs.readFileSync(path, [options]): Reads the entire content of a file synchronously.
+
+try {
+    const data = fs.readFileSync('path/to/file.txt', 'utf-8');
+    console.log('File contents:', data);
+} catch (err) {
+    console.error('Error reading file:', err);
+}
+```
+- Writing Files:
+fs.writeFile(path, data, [options], callback): Writes data to a file asynchronously. If the file already exists, it is overwritten.
+```javascript
+fs.writeFile('path/to/file.txt', 'Hello, World!', (err) => {
+    if (err) {
+        console.error('Error writing file:', err);
+    } else {
+        console.log('File written successfully.');
+    }
+});
+```
+
+- Appending Files:
+fs.appendFile(path, data, [options], callback): Appends data to a file asynchronously. If the file doesn't exist, it is created.
+```javascript
+fs.appendFile('path/to/file.txt', '\nAppended line', (err) => {
+    if (err) {
+        console.error('Error appending file:', err);
+    } else {
+        console.log('File appended successfully.');
+    }
+});
+```
+
+- Deleting Files:
+fs.unlink(path, callback): Deletes a file asynchronously.
+```javascript
+
+fs.unlink('path/to/file.txt', (err) => {
+    if (err) {
+        console.error('Error deleting file:', err);
+    } else {
+        console.log('File deleted successfully.');
+    }
+});
+```
+
+![Screenshot 2024-04-17 145900](https://github.com/Gaurav038/interview-notes/assets/78479119/c14a357b-cc1f-4324-b8ed-1c23635995a4)
+
+While horizontal scaling refers to adding additional nodes, vertical scaling describes adding more power to your current machines. For instance, if your server requires more processing power, vertical scaling would mean upgrading the CPUs.
