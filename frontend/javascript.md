@@ -20,3 +20,6 @@
 
 ![Screenshot 2024-05-06 114836](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/d2119b53-2a78-4c31-becb-1fb7af34b618)
 ![Screenshot 2024-05-06 114827](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/930d609a-33ef-413b-a830-5426d0059df8)
+![Screenshot 2024-05-06 115940](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/181d0a28-4de6-4341-9959-73110f191c5d)
+![Screenshot 2024-05-06 121655](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/8667d3ae-33ab-43e4-b26c-a5f2c0bb8dea)
+![Screenshot 2024-05-06 121458](https://github.com/meabhisingh/mernProjectEcommerce/assets/78479119/8df992c4-f1e4-4949-b758-372d158f07b2)
