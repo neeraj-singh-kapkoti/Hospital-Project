@@ -44,3 +44,53 @@ const point: Point = {
 
 const add: AddFunction = (a, b) => a + b;
 ```
+
+## readonly and optional (denoted by the ? symbol)
+are modifiers that you can use to define properties in objects and interfaces with specific behaviors.
+
+### readonly Modifier
+The readonly modifier makes a property immutable, meaning that once it is assigned a value, it cannot be changed. This can be useful for defining constant properties in objects and interfaces.
+
+Here's an example of how to use the readonly modifier:
+
+```bash
+interface Point {
+    readonly x: number;
+    readonly y: number;
+}
+
+const point: Point = {
+    x: 10,
+    y: 20
+};
+
+console.log(point.x); // Output: 10
+// Trying to change the value of `x` or `y` will result in a compile-time error
+// point.x = 15; // Error: Cannot assign to 'x' because it is a read-only property
+```
+In the above example, the Point interface defines two properties, x and y, both of which are marked as readonly. As a result, once you create an object of type Point and assign values to x and y, you cannot change them.
+
+### optional Modifier (?)
+In TypeScript, the optional modifier (?) is used to define properties that are not required to be present in an object. This can be helpful when working with objects that may or may not have certain properties.
+
+Here's an example of how to use the optional modifier:
+
+```bash
+interface User {
+    id: number;
+    name: string;
+    age?: number; // age is an optional property
+}
+
+const user1: User = {
+    id: 1,
+    name: "Alice"
+    // age is not provided, which is fine because it is optional
+};
+
+const user2: User = {
+    id: 2,
+    name: "Bob",
+    age: 30 // age is provided, which is also fine
+};
+```
