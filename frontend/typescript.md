@@ -3,10 +3,10 @@ TypeScript is a statically typed superset of JavaScript that provides type safet
 
 # Here are some basics to get you started with TypeScript:
 
-## type aliases 
+## Type aliases 
 Allow you to create a new name (alias) for a type, which can be particularly useful for creating more descriptive names for complex types. You can use a type alias to represent a union type, an intersection type, or any other type.
 
-# How to Define a Type Alias
+### How to Define a Type Alias
 To define a type alias in TypeScript, use the type keyword followed by the alias name and the type you want to alias:
 ```bash
     type AliasName = OriginalType;
@@ -18,5 +18,13 @@ Create an alias for a primitive type or an existing type.
 type MyNumber = number;
 let myValue: MyNumber = 42;
 ```
+- Union Type Alias:
+ Create an alias for a union type, allowing a variable to hold one of several types.
+```bash
+type StringOrNumber = string | number;
+let value: StringOrNumber;
 
+value = "Hello"; // value is a string
+value = 10; // value is now a number
+```
 
