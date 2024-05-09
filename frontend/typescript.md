@@ -123,3 +123,70 @@ let people: Person[] = [
     { name: "Bob", age: 25 }
 ];
 ```
+
+### Union Types
+A union type allows a variable to hold one of several types. It is represented using the | operator between types.
+
+Example:
+```bash
+type StringOrNumber = string | number;
+
+let value: StringOrNumber;
+value = "Hello"; // Allowed because "Hello" is a string
+value = 42; // Allowed because 42 is a number
+```
+You can use union types to handle different types of data within a single variable or function parameter.
+
+### Tuple Types
+Tuple types allow you to specify an array with a fixed length and known element types at each index. This is useful for defining arrays where each element has a specific purpose and type.
+```bash
+Example:
+let point: [number, number] = [10, 20]; // A tuple with two numbers
+
+// Accessing tuple elements by index
+let x = point[0]; // x is 10
+let y = point[1]; // y is 20
+
+// You can modify the elements of a tuple
+point[0] = 15; // x is now 15
+```
+You can also use tuples in function parameters and return types:
+
+### Function Parameter Example:
+```bash
+function printCoordinates(coords: [number, number]): void {
+    console.log(`X: ${coords[0]}, Y: ${coords[1]}`);
+}
+
+printCoordinates([10, 20]); // Output: X: 10, Y: 20
+```
+
+### Enums
+Enums in TypeScript allow you to define a set of named constants. Enums can be numeric or string-based.
+
+Numeric Enum Example:
+```bash
+enum Direction {
+    North,
+    South,
+    East,
+    West,
+}
+
+let dir: Direction = Direction.North; // dir is 0, since Direction.North is the first entry
+
+switch (dir) {
+    case Direction.North:
+        console.log("Heading North");
+        break;
+    case Direction.South:
+        console.log("Heading South");
+        break;
+    case Direction.East:
+        console.log("Heading East");
+        break;
+    case Direction.West:
+        console.log("Heading West");
+        break;
+}
+```
