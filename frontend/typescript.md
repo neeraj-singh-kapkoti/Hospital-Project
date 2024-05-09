@@ -27,4 +27,20 @@ let value: StringOrNumber;
 value = "Hello"; // value is a string
 value = 10; // value is now a number
 ```
+- Complex Type Alias:
+  Create an alias for a complex type such as an object with nested properties or a function type.
+```bash
+type Point = {
+    x: number;
+    y: number;
+};
 
+type AddFunction = (a: number, b: number) => number;
+
+const point: Point = {
+    x: 10,
+    y: 20
+};
+
+const add: AddFunction = (a, b) => a + b;
+```
