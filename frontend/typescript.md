@@ -94,3 +94,32 @@ const user2: User = {
     age: 30 // age is provided, which is also fine
 };
 ```
+
+## Arrays 
+can be typed to contain specific types of elements. This means you can create arrays that are strongly typed, ensuring that the elements in the array match the expected type. TypeScript provides a few ways to define the type of an array:
+
+- Type Annotations:
+You can specify the type of elements in an array using square brackets ([]) after the element type.
+```bash
+let numbers: number[] = [1, 2, 3, 4];
+let strings: string[] = ["a", "b", "c"];
+```
+- Generic Array Type:
+Another way to define an array's type is to use the generic syntax Array<type>.
+```bash
+let numbers: Array<number> = [5, 10, 15];
+let strings: Array<string> = ["x", "y", "z"];
+```
+- Array of Objects:
+You can specify an array type that contains objects with specific properties and types.
+```bash
+interface Person {
+    name: string;
+    age: number;
+}
+
+let people: Person[] = [
+    { name: "Alice", age: 30 },
+    { name: "Bob", age: 25 }
+];
+```
