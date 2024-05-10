@@ -25,7 +25,7 @@ Server Load: SSR puts more load on the server because it must render pages for e
 
 Complexity: Managing SSR can be more complex, particularly with state management and data fetching.
 
-![Screenshot from 2024-05-10 14-50-44](https://github.com/Gaurav038/interview-notes/assets/78479119/ce91dcab-cdd4-4791-b8ef-90f6bacebc69)
+![Screenshot from 2024-05-10 14-51-51](https://github.com/Gaurav038/interview-notes/assets/78479119/41eb3ada-5956-4c4b-96e2-078988a5f033)
 
 ### Client-Side Rendering (CSR)
 - Overview: In client-side rendering, the server sends a minimal HTML file to the client, which includes a link to the JavaScript code. The JavaScript then fetches data and renders the page on the client side.
@@ -71,4 +71,4 @@ Next.js allows you to mix Server Components and Client Components in the same ap
 Optimized Performance: By using Server Components for server-side rendering and data fetching, you can optimize initial load times and reduce the amount of JavaScript sent to the client.
 Rich Interactivity: By using Client Components where needed, you can maintain the interactivity and dynamic behavior that React is known for.
 
-![Screenshot from 2024-05-10 14-52-15](https://github.com/Gaurav038/interview-notes/assets/78479119/af676739-02a2-44dc-aa6b-6e3e82e203fc)
+![Screenshot from 2024-05-10 14-50-44](https://github.com/Gaurav038/interview-notes/assets/78479119/ce91dcab-cdd4-4791-b8ef-90f6bacebc69)
