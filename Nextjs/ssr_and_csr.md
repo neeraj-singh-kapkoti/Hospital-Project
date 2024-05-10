@@ -47,7 +47,7 @@ SEO Challenges: CSR can present challenges for SEO since search engines may stru
 
 ![Screenshot from 2024-05-10 14-50-44](https://github.com/Gaurav038/interview-notes/assets/78479119/790e33a3-416f-4857-88c6-3b9c3fcc224b)
 
-## React Server Components
+## React Server Components (/pages   --->  /app)  
 Next.js introduced a major new feature in version 13 called React Server Components, which changes how you can build and structure applications using Next.js. With this feature, you can create two types of components: Server Components and Client Components. These components allow you to leverage the best of both server-side and client-side rendering while keeping your application fast and efficient. Let's compare Server Components, Client Components, and traditional SSR and CSR approaches:
 
 React Server Components
