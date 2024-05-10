@@ -45,7 +45,7 @@ Slower Initial Load: The initial load time can be slower since the client must d
 
 SEO Challenges: CSR can present challenges for SEO since search engines may struggle to index pages that rely heavily on JavaScript rendering.
 
-![Screenshot from 2024-05-10 14-51-51](https://github.com/Gaurav038/interview-notes/assets/78479119/41eb3ada-5956-4c4b-96e2-078988a5f033)
+![Screenshot from 2024-05-10 14-50-44](https://github.com/Gaurav038/interview-notes/assets/78479119/790e33a3-416f-4857-88c6-3b9c3fcc224b)
 
 ## React Server Components
 Next.js introduced a major new feature in version 13 called React Server Components, which changes how you can build and structure applications using Next.js. With this feature, you can create two types of components: Server Components and Client Components. These components allow you to leverage the best of both server-side and client-side rendering while keeping your application fast and efficient. Let's compare Server Components, Client Components, and traditional SSR and CSR approaches:
@@ -71,4 +71,4 @@ Next.js allows you to mix Server Components and Client Components in the same ap
 Optimized Performance: By using Server Components for server-side rendering and data fetching, you can optimize initial load times and reduce the amount of JavaScript sent to the client.
 Rich Interactivity: By using Client Components where needed, you can maintain the interactivity and dynamic behavior that React is known for.
 
-![Screenshot from 2024-05-10 14-50-44](https://github.com/Gaurav038/interview-notes/assets/78479119/ce91dcab-cdd4-4791-b8ef-90f6bacebc69)
+![Screenshot from 2024-05-10 15-33-44](https://github.com/Gaurav038/interview-notes/assets/78479119/f9abe641-4720-49c6-8771-b9b9f38c4004)
