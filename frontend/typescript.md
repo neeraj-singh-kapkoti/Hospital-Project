@@ -93,6 +93,54 @@ const point: Point = {
 
 const add: AddFunction = (a, b) => a + b;
 ```
+## Interface
+
+In TypeScript, an interface is a way to define the shape of an object, specifying the names and types of its properties and optionally its methods. Interfaces play a crucial role in defining contracts within your codebase, ensuring that objects adhere to a specific structure and providing a way to enforce type checking at compile time.
+
+Example
+```bash
+interface Person {
+    name: string;
+    age: number;
+    greet(): void;
+}
+
+let person: Person = {
+    name: "Alice",
+    age: 30,
+    greet() {
+        console.log("Hello, my name is " + this.name + " and I am " + this.age + " years old.");
+    }
+};
+
+```
+## Interfaces vs Type
+### Extension:
+- Interfaces can extend other interfaces, allowing for composition and inheritance.
+- Types can define union (|) and intersection (&) types, allowing for more complex type combinations.
+- Interfaces can add new field in existing created one Interfaces,but not in case of Types.
+- 
+```bash
+interface Person {
+    name: string;
+    age: number;
+}
+
+interface Employee extends Person {
+    employeeId: string;
+}
+
+type Person = {
+    name: string;
+    age: number;
+};
+
+type Employee = Person & {
+    employeeId: string;
+};
+
+
+```
 
 ## readonly and optional (denoted by the ? symbol)
 are modifiers that you can use to define properties in objects and interfaces with specific behaviors.
@@ -269,4 +317,12 @@ In this example:
 <T> declares a generic type parameter T.
 arg: T specifies that the parameter arg should be of type T.
 T is used as the return type as well.
+
+
+function reverse<T>(array: Array<T>): Array<T> {
+    return array.reverse();
+}
+
+let reversedNumbers = reverse(numbers); // Reversed array of numbers
+let reversedStrings = reverse(strings); // Reversed array of strings
 ```
