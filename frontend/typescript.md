@@ -190,3 +190,17 @@ switch (dir) {
         break;
 }
 ```
+## Type Assertion
+
+In TypeScript, type assertion is a mechanism which tells the compiler about the type of a variable. When TypeScript determines that the assignment is invalid, then we have an option to override the type using a type assertion. If we use a type assertion, the assignment is always valid, so we need to be sure that we are right. Otherwise, our program may not work correctly.
+
+### TypeScript provides two ways to do Type Assertion. They are
+
+- Using Angular Bracket <>
+- Using as keyword
+  
+```bash
+let code: any = 111;   
+let employeeCode = <number> code;   
+let employeeCode = code as number;
+```
