@@ -204,3 +204,20 @@ let code: any = 111;
 let employeeCode = <number> code;   
 let employeeCode = code as number;
 ```
+## Generics
+
+TypeScript generics provide a way to create reusable components and functions that work with a variety of data types while maintaining type safety. Generics allow you to define placeholders for types that are specified by the caller when using the component or function.
+
+### Syntax:
+The syntax for defining generics in TypeScript involves using angle brackets (<>) to enclose a type parameter, which acts as a placeholder for a specific type. Here's a basic syntax example:
+
+```bash
+function identity<T>(arg: T): T {
+    return arg;
+}
+In this example:
+
+<T> declares a generic type parameter T.
+arg: T specifies that the parameter arg should be of type T.
+T is used as the return type as well.
+```
