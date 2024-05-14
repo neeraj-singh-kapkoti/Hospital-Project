@@ -3,6 +3,55 @@ TypeScript is a statically typed superset of JavaScript that provides type safet
 
 # Here are some basics to get you started with TypeScript:
 
+## Type Annotations:
+Variables can be annotated with types using a colon (:) followed by the type.
+```bash
+let count: number = 10;
+let name: string = "John";
+```
+## Type inference
+In TypeScript, type inference refers to the compiler's ability to automatically determine the types of variables and expressions based on their usage. This feature allows you to write code without explicitly specifying types in many cases, while still benefiting from static type checking.
+
+Let's discuss how type inference works for number and boolean types in TypeScript:
+```bash
+let x = 42; // TypeScript infers that 'x' is of type 'number'
+let isTrue = true; // TypeScript infers that 'isTrue' is of type 'boolean'
+let result = 5 + 10; // TypeScript infers that 'result' is of type 'number'
+```
+## Any type
+In TypeScript, the any type is a special type that acts as a wildcard for type compatibility. When you declare a variable or function parameter with the any type, TypeScript effectively turns off type checking for that variable. This means that any value can be assigned to a variable of type any, and any operations can be performed on it without any compile-time errors.
+
+Here's an example of how the any type works in practice:
+```bash
+let myVariable: any = 42; // myVariable is assigned the number 42
+myVariable = "Hello"; // myVariable is now a string
+myVariable = true; // myVariable can be reassigned to a boolean
+```
+
+## Function
+- Function with Return Type:
+```bash
+    function add(x: number, y: number): number {
+        return x + y;
+    }
+```
+
+- Rest Parameters:
+```bash
+    function sum(...numbers: number[]): number {
+        return numbers.reduce((total, num) => total + num, 0);
+    }
+```
+
+## void vs never type
+
+In TypeScript, both void and never represent the absence of a value, but they have different use cases and implications.
+
+Use Case: 
+- void is used as the return type of functions that do not return a value or explicitly return undefined.
+- never is used as the return type of functions that never complete normally, i.e., functions that always throw an error, enter infinite loops, or have unreachable code.
+
+  
 ## Type aliases 
 Allow you to create a new name (alias) for a type, which can be particularly useful for creating more descriptive names for complex types. You can use a type alias to represent a union type, an intersection type, or any other type.
 
