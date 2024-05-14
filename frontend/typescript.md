@@ -326,3 +326,30 @@ function reverse<T>(array: Array<T>): Array<T> {
 let reversedNumbers = reverse(numbers); // Reversed array of numbers
 let reversedStrings = reverse(strings); // Reversed array of strings
 ```
+## Instance of and Type predicates
+
+- instanceof Operator
+```bash
+  class Animal {
+    move() {
+        console.log("Moving...");
+    }
+}
+
+class Dog extends Animal {
+    bark() {
+        console.log("Woof!");
+    }
+}
+
+let dog = new Dog();
+
+console.log(dog instanceof Dog); // true, dog is an instance of Dog
+console.log(dog instanceof Animal); // true, dog is also an instance of Animal
+```
+
+The instanceof operator is used to check if an object is an instance of a specific class or constructor function. It returns true if the object is an instance of the specified class, otherwise false.
+
+- Type Predicates
+  
+Type predicates are functions that return a boolean value. They are used as custom type guards to narrow down the type of a variable within a conditional block.
