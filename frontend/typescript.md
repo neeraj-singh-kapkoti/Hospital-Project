@@ -119,7 +119,8 @@ let person: Person = {
 - Interfaces can extend other interfaces, allowing for composition and inheritance.
 - Types can define union (|) and intersection (&) types, allowing for more complex type combinations.
 - Interfaces can add new field in existing created one Interfaces,but not in case of Types.
-- 
+- type can represent a wide range of types, including primitive types, unions, intersections, etc but Interfaces can only Objects
+- interface is more focused on object shape definition and can be extended by other interfaces.
 ```bash
 interface Person {
     name: string;
